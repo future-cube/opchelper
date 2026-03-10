@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Paddle", "en": "Paddle" },
+  "description": {
+    "zh": "面向 SaaS/订阅的商户与税务/付款解决方案（以官方文档为准）。适合需要订阅管理、税务处理与可编程 API 的产品团队。",
+    "en": "Merchant/tax/payments for SaaS subscriptions (see docs). Useful for subscription management and APIs."
+  },
+  "website": "https://www.paddle.com/",
+  "docs": "https://developer.paddle.com/api-reference/overview",
+  "tags": ["payments", "subscriptions", "tax", "api"]
+}
+

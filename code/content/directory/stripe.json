@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Stripe", "en": "Stripe" },
+  "description": {
+    "zh": "支付平台与开发者工具链（支付、订阅、发票等）。适合需要可编程支付/订阅的创作者与一人公司。",
+    "en": "Payments platform and developer tooling (payments/subscriptions/invoicing). Useful for programmable payment flows."
+  },
+  "website": "https://stripe.com/",
+  "docs": "https://docs.stripe.com/payments",
+  "tags": ["payments", "subscriptions", "invoicing", "api"]
+}
+

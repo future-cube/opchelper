@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Linktree", "en": "Linktree" },
+  "description": {
+    "zh": "链接聚合与“个人主页”工具。适合把流量入口统一到一个页面，再引导到订阅/购买/社群。",
+    "en": "Link-in-bio and link hub tool. Useful to centralize traffic and route to subscribe/buy/community."
+  },
+  "website": "https://linktr.ee/",
+  "docs": "https://linktr.ee/dir_docs",
+  "tags": ["creator", "landing-page", "link-in-bio"]
+}
+

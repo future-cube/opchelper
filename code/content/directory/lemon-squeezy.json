@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Lemon Squeezy", "en": "Lemon Squeezy" },
+  "description": {
+    "zh": "面向数字产品/软件的支付与订阅平台（以官方文档为准）。适合卖模板/资料/软件并减少税务与支付集成负担。",
+    "en": "Payments/subscriptions platform for digital products (see docs). Useful for selling files/templates/software with less ops."
+  },
+  "website": "https://www.lemonsqueezy.com/",
+  "docs": "https://docs.lemonsqueezy.com/api",
+  "tags": ["payments", "digital-products", "subscriptions", "api"]
+}
+

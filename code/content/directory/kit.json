@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Kit（原 ConvertKit）", "en": "Kit (formerly ConvertKit)" },
+  "description": {
+    "zh": "面向创作者的邮件营销/Newsletter 平台：表单、自动化、分组与落地页（以官方文档为准）。",
+    "en": "Email marketing/newsletter platform for creators: forms, automations, segmentation, landing pages (see docs)."
+  },
+  "website": "https://kit.com/",
+  "docs": "https://developers.kit.com/",
+  "tags": ["creator", "email", "automation", "newsletter"]
+}
+

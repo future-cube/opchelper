@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Gumroad", "en": "Gumroad" },
+  "description": {
+    "zh": "数字产品销售平台（以官方帮助中心为准）。适合快速上架模板/资料/小产品，但要关注平台规则、提现与风控。",
+    "en": "Digital product selling platform (see help center). Fast to list products; watch platform rules and payouts."
+  },
+  "website": "https://gumroad.com/",
+  "docs": "https://help.gumroad.com/",
+  "tags": ["digital-products", "store", "creator"]
+}
+

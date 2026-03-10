@@ -1,0 +1,12 @@
+{
+  "category": "site",
+  "name": { "zh": "Substack", "en": "Substack" },
+  "description": {
+    "zh": "订阅内容平台（newsletter / podcast / video）。适合快速启动订阅制内容，但要注意平台依赖：把邮箱列表当作“资产”。",
+    "en": "Subscription publishing platform (newsletter/podcast/video). Fast to start, but treat your email list as the real asset."
+  },
+  "website": "https://substack.com/",
+  "docs": "https://support.substack.com/hc/en-us",
+  "tags": ["creator", "newsletter", "subscription", "platform"]
+}
+

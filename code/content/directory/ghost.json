@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Ghost", "en": "Ghost" },
+  "description": {
+    "zh": "开源发布平台（博客/Newsletter/会员）。适合希望“自建阵地”并可迁移的数据所有权路线（以官方文档为准）。",
+    "en": "Open-source publishing platform (blog/newsletter/membership). Good for owning your stack and data (see docs)."
+  },
+  "website": "https://ghost.org/",
+  "docs": "https://ghost.org/docs/",
+  "tags": ["creator", "newsletter", "membership", "self-hosted"]
+}
+

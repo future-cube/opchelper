@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Canva", "en": "Canva" },
+  "description": {
+    "zh": "在线设计工具：封面、海报、社媒素材与简单视频。适合一人公司快速产出一致风格的视觉资产。",
+    "en": "Online design tool for covers, social assets, and simple videos. Great for consistent visuals as a solo operator."
+  },
+  "website": "https://www.canva.com/",
+  "docs": "https://www.canva.com/help/",
+  "tags": ["design", "creator", "assets"]
+}
+

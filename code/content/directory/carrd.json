@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Carrd", "en": "Carrd" },
+  "description": {
+    "zh": "轻量落地页/个人站点构建工具。适合做链接聚合页、Lead Magnet 落地页、产品说明页。",
+    "en": "Lightweight landing page builder. Great for link hubs, lead magnets, and simple product pages."
+  },
+  "website": "https://carrd.co/",
+  "docs": "https://carrd.co/docs",
+  "tags": ["landing-page", "creator", "website"]
+}
+

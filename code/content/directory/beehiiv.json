@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "beehiiv", "en": "beehiiv" },
+  "description": {
+    "zh": "面向 newsletter 的平台与工具链（建站、订阅、分析、集成等）。适合把“内容 + 邮件列表”做成长期复利资产。",
+    "en": "Newsletter platform/tooling (site, subscriptions, analytics, integrations). Great for compounding an email list asset."
+  },
+  "website": "https://www.beehiiv.com/",
+  "docs": "https://developers.beehiiv.com/welcome/getting-started",
+  "tags": ["creator", "newsletter", "email", "api"]
+}
+
