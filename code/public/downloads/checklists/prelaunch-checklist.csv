@@ -1,0 +1,12 @@
+item,description,owner,status
+niche_defined,"受众与场景已明确（足够具体）",both,todo
+demand_signal,"需求信号已验证（内容/私信/预售/等候名单）",creator,todo
+example_output,"示例输出已准备（截图/片段）",creator,todo
+mvp_pack,"MVP 包已完成（主交付物+quickstart+示例+FAQ）",creator,todo
+product_page,"产品页已完成（卖结果，不卖文件）",creator,todo
+pricing_tiers,"定价与套餐分层已设置",creator,todo
+refund_policy,"退款/支持边界已明确",creator,todo
+delivery_tested,"交付链路已自测（购买→交付→下载/访问）",creator,todo
+support_inbox,"售后入口已设置（邮箱/表单）",creator,todo
+launch_posts,"至少 3 条发布内容已准备（含 CTA）",creator,todo
+
