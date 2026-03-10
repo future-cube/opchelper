@@ -1,15 +1,15 @@
 <script setup lang="ts">
 type DownloadDoc = {
-  _path?: string;
+  path: string;
   title?: string;
   description?: string;
   tags?: string[];
   downloadUrl?: string;
+  updatedAt?: string;
 };
 
 const { locale } = useI18n();
 const localePath = useLocalePath();
-const basePath = computed(() => `/${locale.value}/downloads`);
 
 const copy = computed(() =>
   locale.value === "zh"
@@ -30,6 +30,17 @@ const copy = computed(() =>
         empty: "No downloads in this language yet."
       }
 );
+
+const collection = computed(() => (locale.value === "zh" ? "downloadsZh" : "downloadsEn"));
+const { data: docs } = await useAsyncData(
+  () => `downloads-index-${locale.value}`,
+  async () =>
+    (await queryCollection(collection.value as "downloadsZh" | "downloadsEn")
+      .select("path", "title", "description", "tags", "downloadUrl", "updatedAt")
+      .order("updatedAt", "DESC")
+      .all()) as DownloadDoc[],
+  { watch: [collection] }
+);
 </script>
 
 <template>
@@ -40,50 +51,44 @@ const copy = computed(() =>
     </p>
 
     <div class="mt-8">
-      <ContentList :path="basePath" v-slot="slotProps">
-        <div v-if="!(slotProps?.list || []).length" class="rounded-3xl bg-white/5 p-6 text-sm text-slate-200/80 ring-1 ring-white/10">
-          {{ copy.empty }}
-        </div>
+      <div v-if="!(docs || []).length" class="rounded-3xl bg-white/5 p-6 text-sm text-slate-200/80 ring-1 ring-white/10">
+        {{ copy.empty }}
+      </div>
 
-        <div v-else class="grid gap-4 sm:grid-cols-2">
-          <div
-            v-for="doc in (slotProps?.list || []) as DownloadDoc[]"
-            :key="doc._path"
-            class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10"
-          >
-            <h2 class="text-lg font-semibold text-white">{{ doc.title }}</h2>
-            <p v-if="doc.description" class="mt-2 text-sm text-slate-200/75">
-              {{ doc.description }}
-            </p>
+      <div v-else class="grid gap-4 sm:grid-cols-2">
+        <div v-for="doc in (docs || [])" :key="doc.path" class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <h2 class="text-lg font-semibold text-white">{{ doc.title }}</h2>
+          <p v-if="doc.description" class="mt-2 text-sm text-slate-200/75">
+            {{ doc.description }}
+          </p>
 
-            <div class="mt-4 flex flex-wrap gap-2">
-              <span
-                v-for="tag in (doc.tags || []).slice(0, 8)"
-                :key="tag"
-                class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
-              >
-                {{ tag }}
-              </span>
-            </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span
+              v-for="tag in (doc.tags || []).slice(0, 8)"
+              :key="tag"
+              class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
+            >
+              {{ tag }}
+            </span>
+          </div>
 
-            <div class="mt-5 flex flex-wrap items-center gap-2">
-              <a
-                v-if="doc.downloadUrl"
-                :href="doc.downloadUrl"
-                class="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-3 py-2 text-sm font-medium text-white shadow-sm shadow-indigo-500/20 transition hover:bg-indigo-400"
-              >
-                {{ copy.download }}
-              </a>
-              <NuxtLink
-                :to="localePath(doc._path?.replace(`/${locale}/`, '/') || '/downloads')"
-                class="inline-flex items-center justify-center rounded-xl bg-white/5 px-3 py-2 text-sm font-medium text-slate-100 ring-1 ring-white/10 transition hover:bg-white/10"
-              >
-                {{ copy.details }}
-              </NuxtLink>
-            </div>
+          <div class="mt-5 flex flex-wrap items-center gap-2">
+            <a
+              v-if="doc.downloadUrl"
+              :href="doc.downloadUrl"
+              class="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-3 py-2 text-sm font-medium text-white shadow-sm shadow-indigo-500/20 transition hover:bg-indigo-400"
+            >
+              {{ copy.download }}
+            </a>
+            <NuxtLink
+              :to="localePath(doc.path.replace(`/${locale}/`, '/'))"
+              class="inline-flex items-center justify-center rounded-xl bg-white/5 px-3 py-2 text-sm font-medium text-slate-100 ring-1 ring-white/10 transition hover:bg-white/10"
+            >
+              {{ copy.details }}
+            </NuxtLink>
           </div>
         </div>
-      </ContentList>
+      </div>
     </div>
   </section>
 </template>

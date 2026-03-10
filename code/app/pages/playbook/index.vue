@@ -1,7 +1,14 @@
 <script setup lang="ts">
+type PlaybookDoc = {
+  path: string;
+  title?: string;
+  description?: string;
+  tags?: string[];
+  updatedAt?: string;
+};
+
 const { locale } = useI18n();
 const localePath = useLocalePath();
-const basePath = computed(() => `/${locale.value}/playbooks`);
 
 const copy = computed(() =>
   locale.value === "zh"
@@ -18,6 +25,23 @@ const copy = computed(() =>
         empty: "No playbooks in this language yet. Start with Guides."
       }
 );
+
+const collection = computed(() => (locale.value === "zh" ? "playbooksZh" : "playbooksEn"));
+const { data: docs } = await useAsyncData(
+  () => `playbooks-index-${locale.value}`,
+  async () =>
+    (await queryCollection(collection.value as "playbooksZh" | "playbooksEn")
+      .select("path", "title", "description", "tags", "updatedAt")
+      .order("updatedAt", "DESC")
+      .all()) as PlaybookDoc[],
+  { watch: [collection] }
+);
+
+const toPlaybookRoute = (docPath: string): string => {
+  const prefix = `/${locale.value}/playbooks/`;
+  const slug = docPath.startsWith(prefix) ? docPath.slice(prefix.length) : docPath;
+  return localePath(`/playbook/${slug}`);
+};
 </script>
 
 <template>
@@ -28,40 +52,37 @@ const copy = computed(() =>
     </p>
 
     <div class="mt-8">
-      <ContentList :path="basePath" v-slot="slotProps">
-        <div v-if="!(slotProps?.list || []).length" class="rounded-3xl bg-white/5 p-6 text-sm text-slate-200/80 ring-1 ring-white/10">
+      <div v-if="!(docs || []).length" class="rounded-3xl bg-white/5 p-6 text-sm text-slate-200/80 ring-1 ring-white/10">
           {{ copy.empty }}
           <div class="mt-4">
             <NuxtLink class="text-indigo-200/90 hover:text-indigo-100" :to="localePath('/guides')">
               {{ locale === 'zh' ? '去学习 →' : 'Go to Guides →' }}
             </NuxtLink>
           </div>
-        </div>
+      </div>
 
-        <div v-else class="grid gap-4 sm:grid-cols-2">
-          <NuxtLink
-            v-for="doc in (slotProps?.list || [])"
-            :key="doc._path"
-            :to="localePath(doc._path?.replace(`/${locale}/`, '/') || '/')"
-            class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10 transition hover:bg-white/10"
-          >
-            <h2 class="text-lg font-semibold text-white">{{ doc.title }}</h2>
-            <p v-if="doc.description" class="mt-2 text-sm text-slate-200/75">
-              {{ doc.description }}
-            </p>
-            <div class="mt-4 flex flex-wrap gap-2">
-              <span
-                v-for="tag in (doc.tags || []).slice(0, 8)"
-                :key="tag"
-                class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
-              >
-                {{ tag }}
-              </span>
-            </div>
-          </NuxtLink>
-        </div>
-      </ContentList>
+      <div v-else class="grid gap-4 sm:grid-cols-2">
+        <NuxtLink
+          v-for="doc in (docs || [])"
+          :key="doc.path"
+          :to="toPlaybookRoute(doc.path)"
+          class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10 transition hover:bg-white/10"
+        >
+          <h2 class="text-lg font-semibold text-white">{{ doc.title }}</h2>
+          <p v-if="doc.description" class="mt-2 text-sm text-slate-200/75">
+            {{ doc.description }}
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span
+              v-for="tag in (doc.tags || []).slice(0, 8)"
+              :key="tag"
+              class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
+            >
+              {{ tag }}
+            </span>
+          </div>
+        </NuxtLink>
+      </div>
     </div>
   </section>
 </template>
-

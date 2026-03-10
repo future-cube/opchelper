@@ -4,10 +4,7 @@ export default defineContentConfig({
   collections: {
     guidesZh: defineCollection({
       type: "page",
-      source: {
-        include: "content/zh/guides/**",
-        prefix: "/zh/guides"
-      },
+      source: "zh/guides/**/*.md",
       schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -17,10 +14,7 @@ export default defineContentConfig({
     }),
     guidesEn: defineCollection({
       type: "page",
-      source: {
-        include: "content/en/guides/**",
-        prefix: "/en/guides"
-      },
+      source: "en/guides/**/*.md",
       schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -30,10 +24,7 @@ export default defineContentConfig({
     }),
     playbooksZh: defineCollection({
       type: "page",
-      source: {
-        include: "content/zh/playbooks/**",
-        prefix: "/zh/playbooks"
-      },
+      source: "zh/playbooks/**/*.md",
       schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -43,10 +34,7 @@ export default defineContentConfig({
     }),
     playbooksEn: defineCollection({
       type: "page",
-      source: {
-        include: "content/en/playbooks/**",
-        prefix: "/en/playbooks"
-      },
+      source: "en/playbooks/**/*.md",
       schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -56,10 +44,7 @@ export default defineContentConfig({
     }),
     downloadsZh: defineCollection({
       type: "page",
-      source: {
-        include: "content/zh/downloads/**",
-        prefix: "/zh/downloads"
-      },
+      source: "zh/downloads/**/*.md",
       schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -70,10 +55,7 @@ export default defineContentConfig({
     }),
     downloadsEn: defineCollection({
       type: "page",
-      source: {
-        include: "content/en/downloads/**",
-        prefix: "/en/downloads"
-      },
+      source: "en/downloads/**/*.md",
       schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -84,10 +66,7 @@ export default defineContentConfig({
     }),
     directory: defineCollection({
       type: "data",
-      source: {
-        include: "content/directory/*.json",
-        prefix: "/directory"
-      },
+      source: "directory/*.json",
       schema: z.object({
         category: z.enum(["provider", "gateway", "tool", "site"]),
         name: z.object({ zh: z.string(), en: z.string() }),
