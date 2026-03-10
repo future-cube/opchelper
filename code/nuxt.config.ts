@@ -6,6 +6,25 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/tailwind.css"],
 
+  runtimeConfig: {
+    public: {
+      buildSha:
+        process.env.CF_PAGES_COMMIT_SHA ||
+        process.env.GITHUB_SHA ||
+        process.env.NUXT_PUBLIC_BUILD_SHA ||
+        "",
+      buildStamp:
+        process.env.CF_PAGES_DEPLOYMENT_ID ||
+        process.env.NUXT_PUBLIC_BUILD_TIME ||
+        "",
+      buildSource: process.env.CF_PAGES_COMMIT_SHA
+        ? "cloudflare-pages"
+        : process.env.GITHUB_SHA
+          ? "github-actions"
+          : "local"
+    }
+  },
+
   app: {
     head: {
       title: "OPC Helper",
