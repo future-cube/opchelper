@@ -19,8 +19,11 @@ updatedAt: "2026-03-10"
 目标：让你更快写出正确的代码与文档。
 
 典型工具：
-- IDE：Cursor（`/zh/directory`）
-- CLI：Codex / Claude Code / OpenCode / Gemini CLI（`/zh/directory`）
+- IDE：Cursor、Windsurf、VS Code + Copilot（`/zh/directory`）
+- CLI：Codex、Claude Code、OpenCode、Gemini CLI、Aider（`/zh/directory`）
+
+补充：如果你偏 VS Code 生态，也可以关注“VS Code 代理型扩展”：
+- Cline、Roo Code（`/zh/directory`）
 
 ### 第 2 层：连模型（供应商/聚合/网关）
 
@@ -48,6 +51,9 @@ updatedAt: "2026-03-10"
 3) 再加 1 个网关/聚合作为备份（回退/比价/路由）  
 4) 最后补观测与评测（规模上来必须做）
 
+> 经验：一人公司最先要跑稳的是“交付闭环”。  
+> 你可以先用一个成熟工具（例如 Codex/Claude Code/Cursor）把“读仓库 → 小步改动 → 验证 → 提交”练熟，再去追新工具。
+
 ---
 
 ## 3）你可以这样开始（复制即用）
@@ -62,10 +68,19 @@ updatedAt: "2026-03-10"
 本项目示例：
 - `/AGENTS.md`
 
+如果你需要一个可下载的执行清单：
+- `/zh/downloads/ai-coding-checklist`
+
 ### B. 从一个最短闭环开始
 
 例如：
 issue → 修复 → 测试 → 发布
+
+把它写成 SOP（以后每次都照做）：
+- 先读：让工具总结现状与关键入口
+- 再计划：3–6 步最小计划（你确认）
+- 再改：一次只改一个点（最小 diff）
+- 再验：给出命令 + 预期结果
 
 ---
 
@@ -73,4 +88,7 @@ issue → 修复 → 测试 → 发布
 
 - AI 工具导航：`/zh/directory`
 - LLM 能力栈（交付级）：`/zh/guides/llm-stack-for-opc`
-
+- Codex 进阶：`/zh/guides/codex-cli-advanced`
+- Claude Code 工作流：`/zh/guides/claude-code-workflow`
+- Cursor 项目落地：`/zh/guides/cursor-project-setup`
+- OpenClaw 工作流：`/zh/guides/openclaw-workflows`

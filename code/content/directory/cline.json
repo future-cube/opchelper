@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Cline", "en": "Cline" },
+  "description": {
+    "zh": "VS Code 内的 AI 编程助手/代理（可用工具执行多步任务）。适合做“仓库级改动 + 自动化”，建议先设置忽略规则与权限边界，避免触碰密钥与大文件。",
+    "en": "VS Code AI coding agent for multi-step repo work. Configure ignore rules and permission boundaries for safety."
+  },
+  "website": "https://cline.bot/",
+  "docs": "https://docs.cline.bot/",
+  "tags": ["coding", "vscode", "agent", "security"]
+}
+

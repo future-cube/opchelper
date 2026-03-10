@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Aider", "en": "Aider" },
+  "description": {
+    "zh": "终端里的 AI 结对编程工具（Git 友好，适合小步提交）。适合在本地仓库里做增量改动：先读懂 → 再改一小段 → 再验证与提交。",
+    "en": "Terminal pair-programming tool designed for incremental, Git-friendly changes in real repos."
+  },
+  "website": "https://aider.chat/",
+  "docs": "https://aider.chat/docs/",
+  "tags": ["coding", "cli", "git", "agent"]
+}
+
