@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Meta Llama", "en": "Meta Llama" },
+  "description": {
+    "zh": "开源权重路线的代表之一（注意许可证与使用条款）。适合自建推理或通过第三方平台使用。",
+    "en": "A major open-weights model family (check license/terms). Often used via self-hosting or third-party platforms."
+  },
+  "website": "https://github.com/meta-llama/llama",
+  "docs": "https://github.com/meta-llama/llama",
+  "tags": ["open-weights", "llm", "license"]
+}
+

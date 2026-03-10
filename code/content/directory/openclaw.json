@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "OpenClaw", "en": "OpenClaw" },
+  "description": {
+    "zh": "自动化/工作流助手系统（以官方文档为准）。适合把“每周重复工作”变成可复用的流水线。",
+    "en": "Workflow automation/assistant system (see official docs). Useful for turning recurring work into reusable pipelines."
+  },
+  "website": "https://docs.openclaw.ai/",
+  "docs": "https://docs.openclaw.ai/",
+  "tags": ["automation", "workflow", "agent"]
+}
+

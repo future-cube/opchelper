@@ -5,12 +5,12 @@ const slug = computed(() => {
   const p = route.params.slug;
   return Array.isArray(p) ? p.join("/") : String(p ?? "");
 });
-const path = computed(() => `/${locale.value}/guides/${slug.value}`);
+const path = computed(() => `/${locale.value}/downloads/${slug.value}`);
 
 const notFound = computed(() =>
   locale.value === "zh"
-    ? { title: "未找到", desc: "当前语言还没有这篇文章。你可以切换语言或先看其他文章。" }
-    : { title: "Not found", desc: "This guide does not exist in the current language yet." }
+    ? { title: "未找到", desc: "当前语言还没有这份下载内容。" }
+    : { title: "Not found", desc: "This download item does not exist in the current language yet." }
 );
 </script>
 
@@ -26,3 +26,4 @@ const notFound = computed(() =>
     </article>
   </section>
 </template>
+

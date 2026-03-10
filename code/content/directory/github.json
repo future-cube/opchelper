@@ -1,0 +1,11 @@
+{
+  "category": "tool",
+  "name": { "zh": "GitHub", "en": "GitHub" },
+  "description": {
+    "zh": "代码托管与协作平台：适合一人公司做版本管理、发布、Issues 与文档沉淀。",
+    "en": "Code hosting and collaboration: versioning, releases, issues, and documentation."
+  },
+  "website": "https://github.com",
+  "tags": ["dev", "docs", "ops"]
+}
+

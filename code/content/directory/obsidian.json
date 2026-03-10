@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Obsidian", "en": "Obsidian" },
+  "description": {
+    "zh": "本地优先的知识管理工具（Markdown）。适合做长期积累的知识库与写作系统。",
+    "en": "Local-first knowledge management app (Markdown). Good for long-term notes and writing systems."
+  },
+  "website": "https://obsidian.md",
+  "docs": "https://help.obsidian.md",
+  "tags": ["knowledge", "markdown", "writing"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "DeepSeek", "en": "DeepSeek" },
+  "description": {
+    "zh": "提供 API 的模型平台（官方文档提供 OpenAI 兼容示例）。适合做成本/效果对比或备份线路。",
+    "en": "Model API platform with OpenAI-compatible examples in official docs."
+  },
+  "website": "https://www.deepseek.com",
+  "docs": "https://api-docs.deepseek.com/",
+  "tags": ["llm", "api", "openai-compatible"]
+}
+

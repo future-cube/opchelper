@@ -9,7 +9,20 @@ const copy = computed(() =>
         title: "一个人，也能运营一家公司",
         subtitle: "OPC Helper 是“一人公司能力学校”：用可执行的教程、路线图和资源导航，帮你把经营变成可复制的系统。",
         ctaLearn: "开始学习（Guides）",
-        ctaDir: "资源导航（Directory）"
+        ctaDir: "资源导航（Directory）",
+        stats: [
+          { k: "能力", v: "学习" },
+          { k: "资源", v: "导航" },
+          { k: "系统", v: "执行" }
+        ],
+        insideTitle: "站点包含什么（v1）",
+        insideItems: [
+          "学习（Guides）：一人公司的能力与工作流教程",
+          "手册（Playbooks）：按行业/业务类型的可复制 SOP",
+          "导航（Directory）：大模型供应商、中转平台与常用工具"
+        ],
+        futureTitle: "可演进",
+        futureText: "v1 静态优先。后续可逐步加入账号（收藏、学习进度）与下载权限，基于 Cloudflare Pages Functions / Workers。"
       }
     : {
         badge: "Learning hub · Directories · Tools",
@@ -17,7 +30,20 @@ const copy = computed(() =>
         subtitle:
           "OPC Helper helps solo operators learn essential skills with practical guides, curated directories, and lightweight tools.",
         ctaLearn: "Start learning",
-        ctaDir: "Explore directory"
+        ctaDir: "Explore directory",
+        stats: [
+          { k: "Skill", v: "Learn" },
+          { k: "Resource", v: "Curate" },
+          { k: "System", v: "Execute" }
+        ],
+        insideTitle: "What’s inside (v1)",
+        insideItems: [
+          "Guides: skills & workflows for solo operators",
+          "Playbooks: SOPs per business type",
+          "Directory: providers, gateways, and practical tools"
+        ],
+        futureTitle: "Future-ready",
+        futureText: "v1 is static-first. Later we can add accounts (bookmarks, learning progress) with Cloudflare Pages Functions / Workers."
       }
 );
 </script>
@@ -53,41 +79,25 @@ const copy = computed(() =>
         </div>
 
         <dl class="mt-8 grid grid-cols-3 gap-4 text-sm">
-          <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
-            <dt class="text-slate-300/70">Skill</dt>
-            <dd class="mt-1 font-semibold text-white">Learn</dd>
-          </div>
-          <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
-            <dt class="text-slate-300/70">Resource</dt>
-            <dd class="mt-1 font-semibold text-white">Curate</dd>
-          </div>
-          <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
-            <dt class="text-slate-300/70">System</dt>
-            <dd class="mt-1 font-semibold text-white">Execute</dd>
+          <div v-for="s in copy.stats" :key="s.k" class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+            <dt class="text-slate-300/70">{{ s.k }}</dt>
+            <dd class="mt-1 font-semibold text-white">{{ s.v }}</dd>
           </div>
         </dl>
       </div>
 
       <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
-        <h2 class="text-lg font-semibold text-white">What’s inside (v1)</h2>
+        <h2 class="text-lg font-semibold text-white">{{ copy.insideTitle }}</h2>
         <ul class="mt-4 space-y-3 text-sm text-slate-200/80">
-          <li class="flex gap-3">
+          <li v-for="item in copy.insideItems" :key="item" class="flex gap-3">
             <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200 ring-1 ring-emerald-300/20">✓</span>
-            Guides: skills & workflows for solo operators
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200 ring-1 ring-emerald-300/20">✓</span>
-            Directory: LLM providers, gateways, and practical tools
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200 ring-1 ring-emerald-300/20">✓</span>
-            Tools: copy-pastable templates for briefs, pricing, change requests, payment reminders
+            {{ item }}
           </li>
         </ul>
         <div class="mt-6 rounded-2xl bg-slate-950/60 p-4 ring-1 ring-white/10">
-          <p class="text-xs text-slate-300/70">Future-ready</p>
+          <p class="text-xs text-slate-300/70">{{ copy.futureTitle }}</p>
           <p class="mt-1 text-sm text-slate-200/80">
-            v1 is static-first. Later we can add accounts (bookmarks, learning progress) with Cloudflare Pages Functions / Workers.
+            {{ copy.futureText }}
           </p>
         </div>
       </div>

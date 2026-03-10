@@ -1,0 +1,4 @@
+target_monthly_income,sellable_hours_per_month,tax_and_fees_rate,risk_factor,min_hourly_rate
+50000,80,0.1,1.2,=target_monthly_income/(sellable_hours_per_month*(1-tax_and_fees_rate))*risk_factor
+30000,60,0.06,1.15,=target_monthly_income/(sellable_hours_per_month*(1-tax_and_fees_rate))*risk_factor
+

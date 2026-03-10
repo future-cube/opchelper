@@ -1,0 +1,11 @@
+{
+  "category": "site",
+  "name": { "zh": "Product Hunt", "en": "Product Hunt" },
+  "description": {
+    "zh": "新产品发布与发现社区：适合独立开发者/微产品做发布、收集反馈与早期流量。",
+    "en": "Product discovery community for launches, early feedback, and initial traffic."
+  },
+  "website": "https://www.producthunt.com",
+  "tags": ["launch", "community", "growth"]
+}
+
