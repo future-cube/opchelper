@@ -8,9 +8,14 @@
 - OpenAI API docs: https://platform.openai.com/docs
 - OpenAI Codex (product): https://openai.com/codex
 - OpenAI Codex Help Center: https://help.openai.com/en/collections/10467008-codex
+- Codex CLI install: https://help.openai.com/en/articles/11096431-installing-codex-cli
+- Codex CLI auth: https://help.openai.com/en/articles/11096450-authenticating-codex-cli
+- Codex CLI getting started: https://help.openai.com/en/articles/11096445-getting-started-with-codex-cli
 - OpenAI Codex repo (CLI): https://github.com/openai/codex
 - Anthropic Claude API docs: https://docs.anthropic.com/
 - Claude Code overview: https://docs.anthropic.com/en/docs/claude-code/overview
+- Claude Code quickstart: https://docs.anthropic.com/en/docs/claude-code/quickstart
+- Claude Code CLI reference: https://docs.anthropic.com/en/docs/claude-code/cli
 - Claude Code product page: https://www.anthropic.com/claude-code
 - Google Gemini API docs: https://ai.google.dev/
 - Gemini CLI intro (Blog): https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/
@@ -50,6 +55,7 @@
 
 - Cursor docs: https://docs.cursor.com/
 - Cursor ignore files: https://docs.cursor.com/context/ignore-files
+- Cursor rules: https://docs.cursor.com/context/rules-for-ai
 - OpenCode CLI docs: https://opencode.ai/docs/cli/
 - OpenClaw website: https://openclaw.ai/
 - OpenClaw Quickstart: https://docs.openclaw.ai/quickstart/

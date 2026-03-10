@@ -27,14 +27,20 @@ pnpm -C code preview
 
 ## Cloudflare Pages 发布
 
-推荐方式：使用 GitHub Actions 自动部署到 Cloudflare Pages（每次 push 自动部署），配置说明见：
+推荐方式：使用 GitHub Actions 自动部署到 Cloudflare Pages（每次 push 到 `main` 自动部署），配置说明见：
 - `docs/deploy/cloudflare-pages.zh-CN.md`
 
-在 Cloudflare Pages 创建项目时，设置如下：
+本仓库默认使用 workflow：`.github/workflows/cloudflare-pages.yml`，用 `wrangler pages deploy` 直接上传静态产物（`code/.output/public`）。
+
+你需要在 GitHub 仓库里配置 Secrets：
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+如果你改用 Cloudflare Pages 的 “Git 集成构建”（而不是 GitHub Actions），建议设置：
 - **Root directory**：`code`
-- **Build command**：`pnpm generate`
+- **Build command**：`pnpm install --frozen-lockfile && pnpm generate`
 - **Build output directory**：`.output/public`
-- **Node version**：建议 20+
+- **Node version**：20+
 
 如果需要更详细的运营方案，请看：
 - `docs/ops/operations-plan.zh-CN.md`

@@ -1,23 +1,19 @@
-# Nuxt Minimal Starter
+# OPC Helper Web (Nuxt + Vue + SSG)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This directory contains the Nuxt application for **OPC Helper**.
+
+- App source code: `code/`
+- Project docs: `docs/` (in repo root)
+- Static output: `code/.output/public` (generated, do not commit)
 
 ## Setup
 
-Make sure to install dependencies:
+Requirements: Node.js 20+ and pnpm.
+
+Install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,51 +21,24 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Static build (Cloudflare Pages)
 
-Build the application for production:
+Generate the static site (SSG):
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm generate
 ```
 
-Locally preview production build:
+Preview the generated output:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Notes
+
+- Deployment is automated via GitHub Actions + Cloudflare Pages (`wrangler pages deploy`).
+- Maintainer handbook: `docs/handbook.zh-CN.md` / `docs/handbook.en.md`.
