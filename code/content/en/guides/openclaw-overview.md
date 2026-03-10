@@ -7,6 +7,12 @@ updatedAt: "2026-03-10"
 
 This guide focuses on operational outcomes (repeatable execution), not an exhaustive feature list. Always follow OpenClaw’s official docs/repo for the latest details.
 
+Official docs:
+- https://docs.openclaw.ai/
+
+Site navigation:
+- Directory: `/en/directory`
+
 ## Why solo operators need workflows
 
 In a one-person company, the bottleneck is repeatability:
@@ -17,4 +23,3 @@ In a one-person company, the bottleneck is repeatability:
 ## A simple way to start
 
 Pick one weekly workflow (content, leads, delivery, or cash flow). Automate the smallest part, add one metric, then expand to the next loop.
-
