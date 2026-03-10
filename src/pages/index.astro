@@ -1,0 +1,143 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="OPC Helper｜一人公司助手">
+  <section class="py-10 sm:py-16">
+    <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+      <div>
+        <p
+          class="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs text-slate-200/80 ring-1 ring-white/10"
+        >
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          静态网站 · 无需登录 · 立即可用
+        </p>
+        <h1 class="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+          把一人公司从“靠灵感”升级到“靠系统”
+        </h1>
+        <p class="mt-4 text-base leading-relaxed text-slate-200/80 sm:text-lg">
+          OPC Helper 提供可复制的 SOP、模板和清单，帮你更稳地获客、交付与回款。
+          先从工具开始：在浏览器里生成可直接复制的 Markdown 文档。
+        </p>
+
+        <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <a
+            href="/tools/templates"
+            class="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-4 py-3 text-sm font-medium text-white shadow-sm shadow-indigo-500/25 transition hover:bg-indigo-400"
+          >
+            打开模板生成器
+          </a>
+          <a
+            href="/playbook"
+            class="inline-flex items-center justify-center rounded-xl bg-white/5 px-4 py-3 text-sm font-medium text-slate-100 ring-1 ring-white/10 transition hover:bg-white/10"
+          >
+            查看一人公司手册
+          </a>
+        </div>
+
+        <dl class="mt-8 grid grid-cols-3 gap-4 text-sm">
+          <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+            <dt class="text-slate-300/70">获客</dt>
+            <dd class="mt-1 font-semibold text-white">更可预测</dd>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+            <dt class="text-slate-300/70">交付</dt>
+            <dd class="mt-1 font-semibold text-white">更可控</dd>
+          </div>
+          <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+            <dt class="text-slate-300/70">回款</dt>
+            <dd class="mt-1 font-semibold text-white">更及时</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+        <h2 class="text-lg font-semibold text-white">你会得到什么</h2>
+        <ul class="mt-4 space-y-3 text-sm text-slate-200/80">
+          <li class="flex gap-3">
+            <span
+              class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200 ring-1 ring-emerald-300/20"
+              aria-hidden="true">✓</span
+            >
+            项目简报、报价说明、需求变更、催款邮件、周复盘等高频文档模板
+          </li>
+          <li class="flex gap-3">
+            <span
+              class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200 ring-1 ring-emerald-300/20"
+              aria-hidden="true">✓</span
+            >
+            “范围边界 + 验收标准 + 付款条款”的标准结构，减少扯皮
+          </li>
+          <li class="flex gap-3">
+            <span
+              class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-200 ring-1 ring-emerald-300/20"
+              aria-hidden="true">✓</span
+            >
+            从内容到工具的内链结构：看方法 → 立刻生成文档 → 复制使用
+          </li>
+        </ul>
+        <div class="mt-6 rounded-2xl bg-slate-950/60 p-4 ring-1 ring-white/10">
+          <p class="text-xs text-slate-300/70">推荐使用方式</p>
+          <p class="mt-1 text-sm text-slate-200/80">
+            打开模板生成器 → 2 分钟填完字段 → 复制 Markdown → 粘贴到 Notion / 飞书 / 邮件
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10">
+    <h2 class="text-2xl font-semibold tracking-tight text-white">常用工具（v1）</h2>
+    <p class="mt-2 text-sm text-slate-200/70">
+      这些工具不依赖后端，适合你随时打开、随时生成、随时复制。
+    </p>
+
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        [
+          {
+            title: "项目简报生成器",
+            desc: "把需求、范围、交付物写清楚，项目就会更顺。"
+          },
+          {
+            title: "报价说明生成器",
+            desc: "写清计费方式、边界与验收，减少反复沟通。"
+          },
+          {
+            title: "催款邮件生成器",
+            desc: "礼貌但坚定，让回款变得可预期。"
+          }
+        ].map((card) => (
+          <a
+            href="/tools/templates"
+            class="group rounded-3xl bg-white/5 p-5 ring-1 ring-white/10 transition hover:bg-white/10"
+          >
+            <h3 class="text-base font-semibold text-white">{card.title}</h3>
+            <p class="mt-2 text-sm text-slate-200/75">{card.desc}</p>
+            <p class="mt-4 text-sm text-indigo-200/80 group-hover:text-indigo-100">去使用 →</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="py-10">
+    <h2 class="text-2xl font-semibold tracking-tight text-white">FAQ</h2>
+    <div class="mt-6 grid gap-4 lg:grid-cols-2">
+      <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
+        <h3 class="text-base font-semibold text-white">这些模板适合什么人？</h3>
+        <p class="mt-2 text-sm text-slate-200/75">
+          适合自由职业者、独立开发者、一人公司，以及 1–3
+          人的小工作室。你越忙、越需要标准化，收益越大。
+        </p>
+      </div>
+      <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
+        <h3 class="text-base font-semibold text-white">会不会泄露信息？</h3>
+        <p class="mt-2 text-sm text-slate-200/75">
+          v1
+          所有生成都在浏览器本地完成，不需要登录，也不依赖服务器保存内容（你复制什么，由你决定）。
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
