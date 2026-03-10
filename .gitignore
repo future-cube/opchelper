@@ -27,3 +27,6 @@ code/.nuxt/
 code/.output/
 code/.cache/
 code/.nitro/
+
+# git worktrees (local)
+.worktrees/
