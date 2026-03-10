@@ -53,7 +53,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           # If the project already exists, this will fail; ignore in that case.
-          wrangler pages project create opchelper --production-branch=main --account-id="$CLOUDFLARE_ACCOUNT_ID" || true
+          wrangler pages project create opchelper --production-branch=main || true
 
       - name: Deploy to Cloudflare Pages
         env:
@@ -64,6 +64,4 @@ jobs:
           wrangler pages deploy code/.output/public \
             --project-name=opchelper \
             --branch=main \
-            --commit-hash="$GITHUB_SHA" \
-            --account-id="$CLOUDFLARE_ACCOUNT_ID" \
-            --log-level=debug
+            --commit-hash="$GITHUB_SHA"
