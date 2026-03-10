@@ -27,7 +27,8 @@ pnpm -C code preview
 
 ## Cloudflare Pages 发布
 
-推荐方式：把 GitHub 仓库连接到 Cloudflare Pages（每次 push 自动部署）。
+推荐方式：使用 GitHub Actions 自动部署到 Cloudflare Pages（每次 push 自动部署），配置说明见：
+- `docs/deploy/cloudflare-pages.zh-CN.md`
 
 在 Cloudflare Pages 创建项目时，设置如下：
 - **Root directory**：`code`
