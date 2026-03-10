@@ -22,8 +22,8 @@ const copy = computed(() =>
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">{{ copy.title }}</h1>
-    <div class="mt-4 max-w-2xl space-y-4 text-sm leading-relaxed text-slate-200/80 sm:text-base">
+    <h1 class="text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">{{ copy.title }}</h1>
+    <div class="mt-4 max-w-2xl space-y-4 text-sm leading-relaxed text-slate-600 dark:text-slate-200/80 sm:text-base">
       <p>{{ copy.p1 }}</p>
       <p>{{ copy.p2 }}</p>
     </div>

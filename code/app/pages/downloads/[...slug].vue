@@ -16,7 +16,7 @@ const notFound = computed(() =>
 
 <template>
   <section class="py-6 sm:py-10">
-    <article class="prose prose-invert max-w-none prose-headings:scroll-mt-24">
+    <article class="prose max-w-none prose-headings:scroll-mt-24 dark:prose-invert">
       <ContentDoc :path="path">
         <template #not-found>
           <h1>{{ notFound.title }}</h1>
@@ -26,4 +26,3 @@ const notFound = computed(() =>
     </article>
   </section>
 </template>
-

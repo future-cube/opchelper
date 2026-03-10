@@ -45,20 +45,20 @@ const { data: docs } = await useAsyncData(
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">{{ copy.title }}</h1>
-    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
+    <h1 class="text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">{{ copy.title }}</h1>
+    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-200/80 sm:text-base">
       {{ copy.intro }}
     </p>
 
     <div class="mt-8">
-      <div v-if="!(docs || []).length" class="rounded-3xl bg-white/5 p-6 text-sm text-slate-200/80 ring-1 ring-white/10">
+      <div v-if="!(docs || []).length" class="opc-card text-sm text-slate-600 dark:text-slate-200/80">
         {{ copy.empty }}
       </div>
 
       <div v-else class="grid gap-4 sm:grid-cols-2">
-        <div v-for="doc in (docs || [])" :key="doc.path" class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
-          <h2 class="text-lg font-semibold text-white">{{ doc.title }}</h2>
-          <p v-if="doc.description" class="mt-2 text-sm text-slate-200/75">
+        <div v-for="doc in (docs || [])" :key="doc.path" class="opc-card">
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{{ doc.title }}</h2>
+          <p v-if="doc.description" class="mt-2 text-sm text-slate-600 dark:text-slate-200/75">
             {{ doc.description }}
           </p>
 
@@ -66,7 +66,7 @@ const { data: docs } = await useAsyncData(
             <span
               v-for="tag in (doc.tags || []).slice(0, 8)"
               :key="tag"
-              class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
+              class="opc-chip"
             >
               {{ tag }}
             </span>
@@ -76,13 +76,13 @@ const { data: docs } = await useAsyncData(
             <a
               v-if="doc.downloadUrl"
               :href="doc.downloadUrl"
-              class="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-3 py-2 text-sm font-medium text-white shadow-sm shadow-indigo-500/20 transition hover:bg-indigo-400"
+              class="opc-btn-primary"
             >
               {{ copy.download }}
             </a>
             <NuxtLink
               :to="localePath(doc.path.replace(`/${locale}/`, '/'))"
-              class="inline-flex items-center justify-center rounded-xl bg-white/5 px-3 py-2 text-sm font-medium text-slate-100 ring-1 ring-white/10 transition hover:bg-white/10"
+              class="opc-btn-ghost"
             >
               {{ copy.details }}
             </NuxtLink>

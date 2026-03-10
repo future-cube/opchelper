@@ -47,10 +47,10 @@ const titleFor = (cat: DirectoryCategory): string => {
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">
+    <h1 class="text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">
       {{ lang === 'zh' ? '导航（Directory）' : 'Directory' }}
     </h1>
-    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
+    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-200/80 sm:text-base">
       {{
         lang === 'zh'
           ? '为一人公司精选的资源导航：大模型供应商、聚合/中转平台、常用工具与相关网站。建议先选“主力供应商 + 备份网关”，再补齐工具栈。'
@@ -60,20 +60,20 @@ const titleFor = (cat: DirectoryCategory): string => {
 
     <div class="mt-8 space-y-10">
       <section v-for="cat in (['provider', 'gateway', 'tool', 'site'] as const)" :key="cat">
-        <h2 class="text-xl font-semibold text-white">{{ titleFor(cat) }}</h2>
+        <h2 class="text-xl font-semibold text-slate-900 dark:text-white">{{ titleFor(cat) }}</h2>
         <div class="mt-4 grid gap-4 sm:grid-cols-2">
-          <div v-for="entry in byCategory[cat]" :key="entry.website" class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
+          <div v-for="entry in byCategory[cat]" :key="entry.website" class="opc-card">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <h3 class="text-base font-semibold text-white">
+                <h3 class="text-base font-semibold text-slate-900 dark:text-white">
                   {{ entry.name[lang] }}
                 </h3>
-                <p class="mt-2 text-sm text-slate-200/75">
+                <p class="mt-2 text-sm text-slate-600 dark:text-slate-200/75">
                   {{ entry.description[lang] }}
                 </p>
               </div>
               <a
-                class="shrink-0 rounded-xl bg-white/5 px-3 py-2 text-sm text-slate-100 ring-1 ring-white/10 transition hover:bg-white/10"
+                class="opc-btn-ghost shrink-0"
                 :href="entry.website"
                 target="_blank"
                 rel="noreferrer"
@@ -81,9 +81,9 @@ const titleFor = (cat: DirectoryCategory): string => {
                 {{ lang === 'zh' ? '官网' : 'Website' }}
               </a>
             </div>
-            <p v-if="entry.docs" class="mt-3 text-sm text-slate-200/70">
+            <p v-if="entry.docs" class="mt-3 break-words text-sm text-slate-600/90 dark:text-slate-200/70">
               {{ lang === 'zh' ? '文档' : 'Docs' }}:
-              <a class="text-indigo-200/90 hover:text-indigo-100" :href="entry.docs" target="_blank" rel="noreferrer">
+              <a class="text-indigo-600 hover:text-indigo-500 dark:text-indigo-200/90 dark:hover:text-indigo-100" :href="entry.docs" target="_blank" rel="noreferrer">
                 {{ entry.docs }}
               </a>
             </p>
@@ -91,7 +91,7 @@ const titleFor = (cat: DirectoryCategory): string => {
               <span
                 v-for="tag in (entry.tags || []).slice(0, 8)"
                 :key="tag"
-                class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
+                class="opc-chip"
               >
                 {{ tag }}
               </span>

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: light;
+}
+
+html.dark {
   color-scheme: dark;
 }
 
@@ -10,3 +14,37 @@
   background: rgba(99, 102, 241, 0.35);
 }
 
+@layer components {
+  .opc-container {
+    @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8;
+  }
+
+  .opc-card {
+    @apply rounded-3xl bg-white p-5 ring-1 ring-slate-200/70 shadow-sm shadow-slate-900/5 transition;
+    @apply dark:bg-white/5 dark:ring-white/10 dark:shadow-none;
+  }
+
+  .opc-card-hover {
+    @apply hover:bg-slate-50;
+    @apply dark:hover:bg-white/10;
+  }
+
+  .opc-chip {
+    @apply rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-600 ring-1 ring-slate-200;
+    @apply dark:bg-white/5 dark:text-slate-200/70 dark:ring-white/10;
+  }
+
+  .opc-btn {
+    @apply inline-flex items-center justify-center rounded-xl px-3 py-2 text-sm font-medium ring-1 transition;
+  }
+
+  .opc-btn-primary {
+    @apply opc-btn bg-indigo-600 text-white ring-indigo-600/30 shadow-sm shadow-indigo-600/15 hover:bg-indigo-500;
+    @apply dark:bg-indigo-500 dark:ring-indigo-400/30 dark:hover:bg-indigo-400;
+  }
+
+  .opc-btn-ghost {
+    @apply opc-btn bg-white text-slate-900 ring-slate-200 hover:bg-slate-50;
+    @apply dark:bg-white/5 dark:text-slate-100 dark:ring-white/10 dark:hover:bg-white/10;
+  }
+}

@@ -23,21 +23,21 @@ const copy = computed(() =>
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">{{ copy.title }}</h1>
-    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
+    <h1 class="text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">{{ copy.title }}</h1>
+    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-200/80 sm:text-base">
       {{ copy.intro }}
     </p>
 
     <div class="mt-6 grid gap-4 sm:grid-cols-2">
       <NuxtLink
         :to="localePath('/tools/templates')"
-        class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10 transition hover:bg-white/10"
+        class="opc-card opc-card-hover"
       >
-        <h2 class="text-lg font-semibold text-white">{{ copy.cardTitle }}</h2>
-        <p class="mt-2 text-sm text-slate-200/75">
+        <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{{ copy.cardTitle }}</h2>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-200/75">
           {{ copy.cardDesc }}
         </p>
-        <p class="mt-4 text-sm text-indigo-200/80">{{ copy.open }}</p>
+        <p class="mt-4 text-sm text-indigo-600 dark:text-indigo-200/80">{{ copy.open }}</p>
       </NuxtLink>
     </div>
   </section>

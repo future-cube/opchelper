@@ -46,16 +46,16 @@ const toPlaybookRoute = (docPath: string): string => {
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">{{ copy.title }}</h1>
-    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
+    <h1 class="text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">{{ copy.title }}</h1>
+    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-200/80 sm:text-base">
       {{ copy.intro }}
     </p>
 
     <div class="mt-8">
-      <div v-if="!(docs || []).length" class="rounded-3xl bg-white/5 p-6 text-sm text-slate-200/80 ring-1 ring-white/10">
+      <div v-if="!(docs || []).length" class="opc-card text-sm text-slate-600 dark:text-slate-200/80">
           {{ copy.empty }}
           <div class="mt-4">
-            <NuxtLink class="text-indigo-200/90 hover:text-indigo-100" :to="localePath('/guides')">
+            <NuxtLink class="text-indigo-600 hover:text-indigo-500 dark:text-indigo-200/90 dark:hover:text-indigo-100" :to="localePath('/guides')">
               {{ locale === 'zh' ? '去学习 →' : 'Go to Guides →' }}
             </NuxtLink>
           </div>
@@ -66,17 +66,17 @@ const toPlaybookRoute = (docPath: string): string => {
           v-for="doc in (docs || [])"
           :key="doc.path"
           :to="toPlaybookRoute(doc.path)"
-          class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10 transition hover:bg-white/10"
+          class="opc-card opc-card-hover"
         >
-          <h2 class="text-lg font-semibold text-white">{{ doc.title }}</h2>
-          <p v-if="doc.description" class="mt-2 text-sm text-slate-200/75">
+          <h2 class="text-lg font-semibold text-slate-900 dark:text-white">{{ doc.title }}</h2>
+          <p v-if="doc.description" class="mt-2 text-sm text-slate-600 dark:text-slate-200/75">
             {{ doc.description }}
           </p>
           <div class="mt-4 flex flex-wrap gap-2">
             <span
               v-for="tag in (doc.tags || []).slice(0, 8)"
               :key="tag"
-              class="rounded-full bg-white/5 px-2.5 py-1 text-xs text-slate-200/70 ring-1 ring-white/10"
+              class="opc-chip"
             >
               {{ tag }}
             </span>

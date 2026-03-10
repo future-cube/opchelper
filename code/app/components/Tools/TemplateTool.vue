@@ -287,12 +287,12 @@ const copyToClipboard = async (): Promise<void> => {
 
 <template>
   <div class="grid gap-6 lg:grid-cols-2">
-    <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
-      <label class="block text-sm font-medium text-slate-100">
+    <div class="opc-card">
+      <label class="block text-sm font-medium text-slate-900 dark:text-slate-100">
         {{ lang === "zh" ? "选择模板" : "Choose template" }}
         <select
           v-model="templateId"
-          class="mt-2 w-full rounded-xl bg-slate-950/60 px-3 py-2 text-sm text-slate-100 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          class="mt-2 w-full rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-900 ring-1 ring-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-400/60 dark:bg-slate-950/60 dark:text-slate-100 dark:ring-white/10 dark:focus:ring-indigo-400"
         >
           <option v-for="t in templates" :key="t.id" :value="t.id">
             {{ t.name[lang] }}
@@ -300,22 +300,22 @@ const copyToClipboard = async (): Promise<void> => {
         </select>
       </label>
 
-      <p class="mt-3 text-sm text-slate-200/75">{{ activeTemplate.description[lang] }}</p>
+      <p class="mt-3 text-sm text-slate-600 dark:text-slate-200/75">{{ activeTemplate.description[lang] }}</p>
 
       <div class="mt-5 space-y-4">
         <div v-for="f in activeTemplate.fields" :key="f.key">
-          <label class="block text-sm font-medium text-slate-100">
+          <label class="block text-sm font-medium text-slate-900 dark:text-slate-100">
             {{ f.label[lang] }}
             <textarea
               v-if="f.textarea"
               v-model="values[f.key]"
-              class="mt-2 min-h-[96px] w-full resize-y rounded-xl bg-slate-950/60 px-3 py-2 text-sm text-slate-100 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              class="mt-2 min-h-[96px] w-full resize-y rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-900 ring-1 ring-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-400/60 dark:bg-slate-950/60 dark:text-slate-100 dark:ring-white/10 dark:focus:ring-indigo-400"
               :placeholder="f.placeholder?.[lang]"
             />
             <input
               v-else
               v-model="values[f.key]"
-              class="mt-2 w-full rounded-xl bg-slate-950/60 px-3 py-2 text-sm text-slate-100 ring-1 ring-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              class="mt-2 w-full rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-900 ring-1 ring-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-400/60 dark:bg-slate-950/60 dark:text-slate-100 dark:ring-white/10 dark:focus:ring-indigo-400"
               :placeholder="f.placeholder?.[lang]"
             />
           </label>
@@ -323,12 +323,12 @@ const copyToClipboard = async (): Promise<void> => {
       </div>
     </div>
 
-    <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
+    <div class="opc-card">
       <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <h2 class="text-base font-semibold text-white">{{ lang === "zh" ? "预览（Markdown）" : "Preview (Markdown)" }}</h2>
+        <h2 class="text-base font-semibold text-slate-900 dark:text-white">{{ lang === "zh" ? "预览（Markdown）" : "Preview (Markdown)" }}</h2>
         <button
           type="button"
-          class="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-3 py-2 text-sm font-medium text-white shadow-sm shadow-indigo-500/20 transition hover:bg-indigo-400"
+          class="opc-btn-primary"
           @click="copyToClipboard"
         >
           <span v-if="copyState === 'ok'">{{ lang === "zh" ? "已复制" : "Copied" }}</span>
@@ -337,9 +337,9 @@ const copyToClipboard = async (): Promise<void> => {
         </button>
       </div>
 
-      <pre class="mt-4 max-h-[560px] overflow-auto rounded-2xl bg-slate-950/60 p-4 text-xs leading-relaxed text-slate-100 ring-1 ring-white/10"><code>{{ output }}</code></pre>
+      <pre class="mt-4 max-h-[560px] overflow-auto rounded-2xl bg-slate-50 p-4 text-xs leading-relaxed text-slate-900 ring-1 ring-slate-200 dark:bg-slate-950/60 dark:text-slate-100 dark:ring-white/10"><code>{{ output }}</code></pre>
 
-      <p class="mt-3 text-xs text-slate-200/60">
+      <p class="mt-3 text-xs text-slate-500 dark:text-slate-200/60">
         {{
           lang === "zh"
             ? "提示：可以直接粘贴到 Notion / 飞书 / 邮件；需要更个性化表达时，再在此基础上微调。"
