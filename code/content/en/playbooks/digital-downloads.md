@@ -18,3 +18,9 @@ Most failures happen because people build first and validate later.
 5) Use content to drive traffic  
 6) Collect feedback → v1.1
 
+Recommended guides:
+- `/en/guides/virtual-products-0to1`
+- `/en/guides/virtual-products-pricing`
+- `/en/guides/virtual-products-delivery`
+
+Downloads: `/en/downloads`

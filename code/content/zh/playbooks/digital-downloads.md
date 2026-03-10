@@ -45,3 +45,9 @@ updatedAt: "2026-03-10"
 做一个“产品阶梯”：
 免费清单 → 低价模板 → 中价资料包 → 高价训练营/咨询
 
+## 6）站内推荐路径（先跑通再扩展）
+
+- 0→1 最短闭环：`/zh/guides/virtual-products-0to1`
+- 定价与套餐：`/zh/guides/virtual-products-pricing`
+- 交付与售后：`/zh/guides/virtual-products-delivery`
+- 下载：产品页/退款/更新模板：`/zh/downloads`
