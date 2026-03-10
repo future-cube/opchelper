@@ -84,5 +84,5 @@ updatedAt: "2026-03-10"
 
 - 手册：服务/咨询 0–1：`/zh/playbook/services-consulting`
 - 下载：项目简报：`/zh/downloads/project-brief-template`
-- 下载：验收清单（建议新增）：`/zh/downloads`
-
+- 下载：验收清单：`/zh/downloads/acceptance-checklist`
+- 下载：SOW（服务说明书）：`/zh/downloads/sow-template`

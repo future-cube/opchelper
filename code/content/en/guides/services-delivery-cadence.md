@@ -25,5 +25,7 @@ Every week:
 
 Change requests = re-scope + re-price + re-schedule.
 
-Next: `/en/playbook/services-consulting` and `/en/downloads`
-
+Next:
+- `/en/playbook/services-consulting`
+- `/en/downloads/sow-template`
+- `/en/downloads/acceptance-checklist`

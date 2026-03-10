@@ -1,0 +1,10 @@
+item,description,owner,status
+scope_confirmed,"范围已确认（含不包含）",both,todo
+acceptance_defined,"验收标准已定义且可验证",both,todo
+deliverables_listed,"交付物列表已列出（含格式/链接）",provider,todo
+handoff_docs,"交付文档齐全（部署/回滚/常见问题）",provider,todo
+client_assets,"客户素材/权限已到位",client,todo
+final_review,"最终验收会议已完成",both,todo
+invoice_sent,"发票/付款信息已发送",provider,todo
+payment_received,"尾款已到账",client,todo
+
