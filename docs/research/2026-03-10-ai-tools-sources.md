@@ -6,8 +6,15 @@
 ## LLM Providers / Platforms
 
 - OpenAI API docs: https://platform.openai.com/docs
+- OpenAI Codex (product): https://openai.com/codex
+- OpenAI Codex Help Center: https://help.openai.com/en/collections/10467008-codex
+- OpenAI Codex repo (CLI): https://github.com/openai/codex
 - Anthropic Claude API docs: https://docs.anthropic.com/
+- Claude Code overview: https://docs.anthropic.com/en/docs/claude-code/overview
+- Claude Code product page: https://www.anthropic.com/claude-code
 - Google Gemini API docs: https://ai.google.dev/
+- Gemini CLI intro (Blog): https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/
+- Gemini CLI docs: https://google-gemini.github.io/gemini-cli/
 - Groq API docs (OpenAI-compatible endpoints): https://console.groq.com/docs/
 - Together AI docs (OpenAI-compatible API): https://docs.together.ai/
 - DeepSeek API docs: https://api-docs.deepseek.com/
@@ -39,6 +46,14 @@
 - Open WebUI docs: https://docs.openwebui.com/
 - Continue docs: https://docs.continue.dev/
 
+## Editors / Coding tools
+
+- Cursor docs: https://docs.cursor.com/
+- Cursor ignore files: https://docs.cursor.com/context/ignore-files
+- OpenCode CLI docs: https://opencode.ai/docs/cli/
+- OpenClaw website: https://openclaw.ai/
+- OpenClaw Quickstart: https://docs.openclaw.ai/quickstart/
+
 ## Vector Databases / Vector Stores
 
 - Qdrant docs: https://qdrant.tech/documentation/
@@ -59,4 +74,3 @@
 ## Protocols (optional)
 
 - Model Context Protocol (MCP) docs: https://modelcontextprotocol.io/docs/learn/architecture
-
