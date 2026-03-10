@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TemplateTool from "../../components/tools/TemplateTool";
+---
+
+<BaseLayout
+  title="模板生成器｜OPC Helper"
+  description="一人公司高频文档模板生成器：项目简报、报价说明、变更说明、催款邮件、周复盘。"
+>
+  <section class="py-6 sm:py-10">
+    <h1 class="text-3xl font-semibold tracking-tight text-white">模板生成器（v1）</h1>
+    <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
+      选择一个模板，填入关键信息，即可生成可复制的
+      Markdown。所有生成在本地完成（浏览器内），不需要登录。
+    </p>
+
+    <div class="mt-8">
+      <TemplateTool client:load />
+    </div>
+  </section>
+</BaseLayout>
