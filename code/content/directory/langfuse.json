@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Langfuse", "en": "Langfuse" },
+  "description": {
+    "zh": "LLM 可观测性/提示词与调用追踪工具（以官方仓库为准）。适合做成本、延迟、失败率与链路追踪。",
+    "en": "LLM observability and tracing (see official repo). Useful for cost/latency/error monitoring."
+  },
+  "website": "https://github.com/langfuse/langfuse",
+  "docs": "https://github.com/langfuse/langfuse",
+  "tags": ["observability", "tracing", "evals"]
+}
+

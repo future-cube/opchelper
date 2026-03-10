@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "pgvector", "en": "pgvector" },
+  "description": {
+    "zh": "Postgres 的向量扩展：把向量检索放进现有数据库（以官方文档/仓库为准）。适合希望“少一套系统”的小团队。",
+    "en": "Vector extension for Postgres. Good if you want vectors inside your existing database (see docs/repo)."
+  },
+  "website": "https://github.com/pgvector/pgvector",
+  "docs": "https://github.com/pgvector/pgvector",
+  "tags": ["vector", "postgres", "rag"]
+}
+

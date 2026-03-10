@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Open WebUI", "en": "Open WebUI" },
+  "description": {
+    "zh": "自托管的 LLM Web UI：适合在局域网/团队内提供统一的聊天与模型入口（具体能力以官方文档为准）。",
+    "en": "Self-hosted LLM web UI for a unified chat/model entry point (see official docs for features)."
+  },
+  "website": "https://openwebui.com/",
+  "docs": "https://docs.openwebui.com/",
+  "tags": ["local", "ui", "self-hosted"]
+}
+

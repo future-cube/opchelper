@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Continue", "en": "Continue" },
+  "description": {
+    "zh": "面向开发者的 AI 编码助手（可集成到编辑器）。适合希望在 IDE 内使用多模型、并把提示词与规则放进仓库管理的人。",
+    "en": "Developer-focused AI coding assistant integrated into editors. Good for multi-model workflows with repo-managed prompts/rules."
+  },
+  "website": "https://www.continue.dev/",
+  "docs": "https://docs.continue.dev/",
+  "tags": ["coding", "editor", "assistant"]
+}
+

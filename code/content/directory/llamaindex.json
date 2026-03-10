@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "LlamaIndex", "en": "LlamaIndex" },
+  "description": {
+    "zh": "面向 RAG/检索增强应用的数据框架与组件（以官方文档为准）。适合把企业/个人知识库接入到应用中。",
+    "en": "Data framework/components for RAG and knowledge-driven apps (see docs)."
+  },
+  "website": "https://www.llamaindex.ai/",
+  "docs": "https://docs.llamaindex.ai/",
+  "tags": ["framework", "rag", "indexing"]
+}
+

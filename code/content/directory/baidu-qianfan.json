@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "百度智能云千帆（Qianfan）", "en": "Baidu Qianfan" },
+  "description": {
+    "zh": "百度千帆平台与文心相关文档入口（以官方文档为准）。适合国内平台集成与生态工具链协作。",
+    "en": "Baidu Qianfan platform entry and docs (see official docs)."
+  },
+  "website": "https://ai.baidu.com/",
+  "docs": "https://ai.baidu.com/ai-doc/index/WENXINWORKSHOP",
+  "tags": ["llm", "api", "china"]
+}
+

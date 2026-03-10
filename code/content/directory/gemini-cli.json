@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Gemini CLI", "en": "Gemini CLI" },
+  "description": {
+    "zh": "Google 发布的开源终端 AI 代理/助手（以官方文档为准）。支持 `GEMINI.md` 项目上下文与扩展机制，适合在 CLI 里做多步任务与自动化。",
+    "en": "Google's open-source terminal AI agent (see official docs). Supports `GEMINI.md` context and extensions."
+  },
+  "website": "https://github.com/google-gemini/gemini-cli",
+  "docs": "https://google-gemini.github.io/gemini-cli/",
+  "tags": ["coding", "cli", "agent", "google"]
+}
+

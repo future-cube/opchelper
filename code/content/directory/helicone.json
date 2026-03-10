@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Helicone", "en": "Helicone" },
+  "description": {
+    "zh": "LLM 可观测性平台（以官方文档为准）：记录请求、延迟、错误与成本，便于运营与排障。",
+    "en": "LLM observability platform (see docs): request logs, latency, errors, and cost analytics."
+  },
+  "website": "https://www.helicone.ai/",
+  "docs": "https://docs.helicone.ai/",
+  "tags": ["observability", "logging", "cost"]
+}
+

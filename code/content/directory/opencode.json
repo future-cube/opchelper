@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "OpenCode（opencode）", "en": "OpenCode (opencode)" },
+  "description": {
+    "zh": "AI 编程助手（CLI/终端）：在仓库中对话、执行与自动化。适合把“重复的改代码工作”做成可复用流程。",
+    "en": "AI coding assistant (CLI) for repo chat/execution/automation. Good for repeatable coding workflows."
+  },
+  "website": "https://opencode.ai/",
+  "docs": "https://opencode.ai/docs/cli/",
+  "tags": ["coding", "cli", "agent"]
+}
+

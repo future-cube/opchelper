@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Moonshot（Kimi）", "en": "Moonshot (Kimi)" },
+  "description": {
+    "zh": "Moonshot 平台入口与 API 文档（以官方文档为准）。适合做长文本相关场景的对比与备份。",
+    "en": "Moonshot platform and API docs (see official docs). Often considered for long-context use cases."
+  },
+  "website": "https://platform.moonshot.ai/",
+  "docs": "https://platform.moonshot.ai/docs/overview",
+  "tags": ["llm", "api"]
+}
+

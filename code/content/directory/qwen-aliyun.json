@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "阿里云通义千问（Qwen / Model Studio）", "en": "Alibaba Cloud Qwen (Model Studio)" },
+  "description": {
+    "zh": "阿里云模型服务入口（以官方文档为准）。适合国内账号体系/合规/网络环境下的模型接入与部署。",
+    "en": "Alibaba Cloud model service entry for Qwen (see docs). Useful for Alibaba Cloud environments."
+  },
+  "website": "https://www.aliyun.com/",
+  "docs": "https://help.aliyun.com/zh/model-studio/getting-started/first-api-call-to-qwen",
+  "tags": ["llm", "api", "china"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "智谱 AI（ZhipuAI / bigmodel）", "en": "ZhipuAI (bigmodel)" },
+  "description": {
+    "zh": "国内模型与 API 平台（以官方文档为准）。适合在国内网络与账务环境下做应用集成与对比。",
+    "en": "Model and API platform in China (see docs). Useful for China-based integrations and comparisons."
+  },
+  "website": "https://www.bigmodel.cn/",
+  "docs": "https://docs.bigmodel.cn/",
+  "tags": ["llm", "api", "china"]
+}
+

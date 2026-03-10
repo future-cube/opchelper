@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Supabase（Vector Columns）", "en": "Supabase (Vector Columns)" },
+  "description": {
+    "zh": "Supabase 的向量列（pgvector）指南（以官方文档为准）。适合快速做带向量检索的应用原型。",
+    "en": "Supabase guide for vector columns (pgvector). Useful for quickly prototyping vector search apps."
+  },
+  "website": "https://supabase.com/",
+  "docs": "https://supabase.com/docs/guides/ai/vector-columns",
+  "tags": ["vector", "postgres", "rag", "backend"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "OpenAI Codex CLI（Codex）", "en": "OpenAI Codex CLI (Codex)" },
+  "description": {
+    "zh": "OpenAI 的终端编程助手（CLI）。适合在本地仓库里做代码阅读、改动、重构与批量任务；建议配合仓库规则/权限控制使用。",
+    "en": "OpenAI's coding assistant CLI for repo-level work (read/edit/refactor/batch tasks). Use with repo rules and permission controls."
+  },
+  "website": "https://openai.com/codex",
+  "docs": "https://help.openai.com/en/collections/10467008-codex",
+  "tags": ["coding", "cli", "agent", "openai"]
+}
+
