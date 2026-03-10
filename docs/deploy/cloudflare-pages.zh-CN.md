@@ -2,6 +2,34 @@
 
 本项目源码在 `code/`，使用 Nuxt SSG：`pnpm -C code generate`，静态产物位于 `code/.output/public`。
 
+## 常见困惑：Workers vs Pages（为什么你会看到“两个项目”）
+
+Cloudflare 的控制台里把 **Workers** 和 **Pages** 放在同一个入口（“Workers & Pages”），但它们是两套不同的发布目标：
+
+- `wrangler deploy` → 部署到 **Workers**（你会看到一个 Worker “script/项目”）
+- `wrangler pages deploy` → 部署到 **Pages**（你会看到一个 Pages “项目” + Deployments）
+
+本仓库的 GitHub Actions 使用的是 `wrangler pages deploy`，所以 **GitHub 发布到 Cloudflare Pages 项目 `opchelper`**，不是 Workers。
+
+如果你现在看到两个同名的东西，通常是：
+- 一个是 **Pages 项目**：用来承载静态站点（应当更新）
+- 另一个是 **Worker script**：可能来自你在 Cloudflare 里配置过的 `npx wrangler deploy`，或本地手动执行过（不会影响 Pages 的 Deployments）
+
+### 如何快速确认“GitHub Actions 部署到了哪里”
+
+1) GitHub Actions 日志里看 `wrangler pages deploy ... --project-name=opchelper --commit-hash=...`
+2) Cloudflare Dashboard → Workers & Pages → Pages → `opchelper` → Deployments
+   - 找到同一个 `commit-hash` / 提交 SHA 的 Deployment（这就是 Actions 部署出来的）
+
+### 如果 Actions 成功但线上域名没变化，优先检查这两点
+
+- **Production branch** 是否是 `main`：
+  - Pages 项目 → Settings → Builds & deployments → Production branch → 设为 `main`
+  - 否则 `--branch=main` 的部署可能会变成 preview deployment，你访问生产域名时看不到变化。
+- 自定义域名是否被 **Workers 路由** 截获：
+  - 如果你给 Worker 配了类似 `example.com/*` 的 route，访问域名会先到 Worker，Pages 不会生效。
+  - 处理方式：删掉该 Worker route，或把域名正确绑定到 Pages 项目。
+
 你有两种部署方式：
 
 ## 方式 A（推荐）：GitHub Actions 自动部署到 Cloudflare Pages
@@ -49,4 +77,3 @@
 - Node version：20+
 
 这个方式同样可以做到 push 自动部署，但需要你在 Cloudflare Dashboard 里完成一次 Git 集成授权与项目创建。
-
