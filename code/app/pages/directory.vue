@@ -59,7 +59,7 @@ const titleFor = (cat: DirectoryCategory): string => {
     </p>
 
     <div class="mt-8 space-y-10">
-      <section v-for="cat in (['provider', 'gateway', 'tool'] as const)" :key="cat">
+      <section v-for="cat in (['provider', 'gateway', 'tool', 'site'] as const)" :key="cat">
         <h2 class="text-xl font-semibold text-white">{{ titleFor(cat) }}</h2>
         <div class="mt-4 grid gap-4 sm:grid-cols-2">
           <div v-for="entry in byCategory[cat]" :key="entry.website" class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
