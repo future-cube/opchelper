@@ -1,0 +1,12 @@
+{
+  "category": "gateway",
+  "name": { "zh": "OpenRouter", "en": "OpenRouter" },
+  "description": {
+    "zh": "聚合/中转平台：用一个接口接入多家模型，适合做备份与比价。",
+    "en": "An aggregator/gateway: one API to access multiple providers; useful for fallback and comparison."
+  },
+  "website": "https://openrouter.ai",
+  "docs": "https://openrouter.ai/docs",
+  "tags": ["gateway", "routing", "llm"]
+}
+

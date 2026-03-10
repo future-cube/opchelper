@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "OpenAI", "en": "OpenAI" },
+  "description": {
+    "zh": "主流大模型与 API 平台（文本、推理、多模态等）。适合直连作为主力供应商。",
+    "en": "A major LLM & API provider (text, reasoning, multimodal). Good as a primary direct provider."
+  },
+  "website": "https://openai.com",
+  "docs": "https://platform.openai.com/docs",
+  "tags": ["llm", "api", "multimodal"]
+}
+

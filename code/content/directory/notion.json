@@ -1,0 +1,11 @@
+{
+  "category": "tool",
+  "name": { "zh": "Notion", "en": "Notion" },
+  "description": {
+    "zh": "一人公司常用的知识库/协作工具：适合做内容库、项目看板、SOP 与模板。",
+    "en": "A common knowledge base & collaboration tool: content, projects, SOPs, templates."
+  },
+  "website": "https://www.notion.so",
+  "tags": ["knowledge", "docs", "ops"]
+}
+

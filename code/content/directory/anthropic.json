@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Anthropic", "en": "Anthropic" },
+  "description": {
+    "zh": "Claude 系列模型提供商，擅长长文本与写作/推理场景。",
+    "en": "Provider of Claude models, strong for long-context and writing/reasoning workflows."
+  },
+  "website": "https://www.anthropic.com",
+  "docs": "https://docs.anthropic.com",
+  "tags": ["llm", "api"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Google AI (Gemini)", "en": "Google AI (Gemini)" },
+  "description": {
+    "zh": "Gemini 相关的模型与 API/平台入口（以官方文档与可用地区为准）。",
+    "en": "Gemini models and APIs/platform entry points (availability depends on region; see official docs)."
+  },
+  "website": "https://ai.google",
+  "docs": "https://ai.google.dev",
+  "tags": ["llm", "api"]
+}
+
