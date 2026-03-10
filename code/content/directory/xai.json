@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "xAI", "en": "xAI" },
+  "description": {
+    "zh": "Grok 相关的 API/平台入口（以官方文档与可用地区为准）。适合把它作为“第二供应商”做对比与备份。",
+    "en": "Grok API/platform entry (availability varies by region; see official docs)."
+  },
+  "website": "https://x.ai/api/",
+  "docs": "https://docs.x.ai/docs",
+  "tags": ["llm", "api"]
+}
+

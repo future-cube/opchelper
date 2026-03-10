@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Mistral", "en": "Mistral" },
+  "description": {
+    "zh": "模型与 API 提供商（以官方文档为准）。适合希望在不同模型路线中做对比与组合的团队。",
+    "en": "Model and API provider (see official docs for availability and features)."
+  },
+  "website": "https://mistral.ai",
+  "docs": "https://docs.mistral.ai/",
+  "tags": ["llm", "api"]
+}
+

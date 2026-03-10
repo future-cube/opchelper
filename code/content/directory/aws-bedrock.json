@@ -1,0 +1,12 @@
+{
+  "category": "gateway",
+  "name": { "zh": "Amazon Bedrock", "en": "Amazon Bedrock" },
+  "description": {
+    "zh": "AWS 的基础模型平台（多家模型统一接入、与 AWS 生态集成）。适合已经在 AWS 上有基础设施/合规需求的团队。",
+    "en": "AWS foundation model platform with unified access and AWS ecosystem integration."
+  },
+  "website": "https://aws.amazon.com/bedrock/",
+  "docs": "https://docs.aws.amazon.com/bedrock/latest/APIReference/welcome.html",
+  "tags": ["gateway", "aws", "api", "enterprise"]
+}
+

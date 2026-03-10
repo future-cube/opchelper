@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Zapier", "en": "Zapier" },
+  "description": {
+    "zh": "低代码自动化平台：适合把表单、邮箱、表格、CRM 等工具连成最短业务闭环。",
+    "en": "No-code automation platform for connecting SaaS tools into simple business workflows."
+  },
+  "website": "https://zapier.com",
+  "docs": "https://zapier.com/apps",
+  "tags": ["automation", "nocode", "integration"]
+}
+

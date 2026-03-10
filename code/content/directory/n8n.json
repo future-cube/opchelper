@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "n8n", "en": "n8n" },
+  "description": {
+    "zh": "开源可自托管的自动化工作流工具：适合做内容分发、表格同步、通知与简单集成。",
+    "en": "Open-source automation/workflow tool (self-hostable). Great for integrations and repeatable ops workflows."
+  },
+  "website": "https://n8n.io",
+  "docs": "https://docs.n8n.io",
+  "tags": ["automation", "workflow", "integration"]
+}
+

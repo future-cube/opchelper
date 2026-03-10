@@ -1,0 +1,12 @@
+{
+  "category": "gateway",
+  "name": { "zh": "Azure OpenAI", "en": "Azure OpenAI" },
+  "description": {
+    "zh": "微软 Azure 上的 OpenAI 服务入口，适合企业侧集成、账号/网络/合规体系走 Azure 的团队。",
+    "en": "OpenAI models via Microsoft Azure, often preferred for enterprise Azure environments."
+  },
+  "website": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+  "docs": "https://learn.microsoft.com/en-us/azure/ai-services/openai/reference",
+  "tags": ["gateway", "azure", "api", "enterprise"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Cohere", "en": "Cohere" },
+  "description": {
+    "zh": "面向企业与应用的模型/API 平台（文本生成、向量等能力以官方文档为准）。",
+    "en": "Model/API platform for building applications (text generation, embeddings, etc.)."
+  },
+  "website": "https://cohere.com",
+  "docs": "https://docs.cohere.com/api-reference",
+  "tags": ["llm", "api", "embedding"]
+}
+

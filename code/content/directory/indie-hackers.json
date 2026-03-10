@@ -1,0 +1,11 @@
+{
+  "category": "site",
+  "name": { "zh": "Indie Hackers", "en": "Indie Hackers" },
+  "description": {
+    "zh": "独立创业者社区：适合学习增长、定价、获客与产品经营经验（案例与访谈很多）。",
+    "en": "Community for indie makers with many case studies on growth, pricing, and operations."
+  },
+  "website": "https://www.indiehackers.com",
+  "tags": ["community", "case-study", "growth"]
+}
+

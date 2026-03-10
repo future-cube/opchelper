@@ -1,0 +1,12 @@
+{
+  "category": "gateway",
+  "name": { "zh": "Cloudflare AI Gateway", "en": "Cloudflare AI Gateway" },
+  "description": {
+    "zh": "面向多模型调用的网关：统一接入、缓存/重试/回退与可观测性。适合一人公司把 AI 调用做成“可控的交付能力”。",
+    "en": "A gateway for multi-model calls: unified access, caching/retries/fallbacks, and observability."
+  },
+  "website": "https://developers.cloudflare.com/ai-gateway/",
+  "docs": "https://developers.cloudflare.com/ai-gateway/",
+  "tags": ["gateway", "observability", "caching", "routing"]
+}
+
