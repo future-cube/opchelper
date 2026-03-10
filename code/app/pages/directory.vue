@@ -13,10 +13,9 @@ type DirectoryEntry = {
 const { locale } = useI18n();
 const lang = computed(() => (locale.value === "zh" ? "zh" : "en") as "zh" | "en");
 
-const { data: entriesData } = await useAsyncData("directoryEntries", () =>
-  queryContent<DirectoryEntry>("/directory").find()
+const { data: entries } = await useAsyncData("directoryEntries", () =>
+  queryCollection("directory").all() as Promise<DirectoryEntry[]>
 );
-const entries = computed(() => entriesData.value ?? []);
 
 const byCategory = computed(() => {
   const groups: Record<DirectoryCategory, DirectoryEntry[]> = {
@@ -25,7 +24,7 @@ const byCategory = computed(() => {
     tool: [],
     site: []
   };
-  for (const e of entries.value) groups[e.category]?.push(e);
+  for (const e of entries.value ?? []) groups[e.category]?.push(e);
   return groups;
 });
 
