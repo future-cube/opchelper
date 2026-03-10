@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "VS Code Copilot Chat", "en": "VS Code Copilot Chat" },
+  "description": {
+    "zh": "Visual Studio Code 内的 Copilot Chat 使用指南入口（以官方文档为准）。适合把项目规则、上下文与验证命令固化为可重复流程。",
+    "en": "Official VS Code guide for Copilot Chat usage. Useful for building repeatable workflows with repo rules and verification commands."
+  },
+  "website": "https://code.visualstudio.com/",
+  "docs": "https://code.visualstudio.com/docs/copilot/chat/chat-ask-mode",
+  "tags": ["coding", "editor", "vscode", "copilot"]
+}
+

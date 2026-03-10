@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Windsurf", "en": "Windsurf" },
+  "description": {
+    "zh": "Codeium 相关的 AI 编辑器与工具链文档入口（以官方文档为准）。适合把项目上下文与命令变成可重复工作流。",
+    "en": "AI editor/tooling docs by Codeium (see official docs). Useful for repeatable workflows with repo context."
+  },
+  "website": "https://docs.windsurf.com/",
+  "docs": "https://docs.windsurf.com/command/codeium-overview",
+  "tags": ["coding", "editor", "assistant", "codeium"]
+}
+
