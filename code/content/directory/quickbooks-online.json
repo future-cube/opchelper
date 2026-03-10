@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "QuickBooks Online", "en": "QuickBooks Online" },
+  "description": {
+    "zh": "Intuit 的在线记账/财务工具。适合以北美为主的自由职业与小公司做发票、账务与报表。",
+    "en": "Online accounting by Intuit. Popular in North America for invoicing, bookkeeping, and reporting."
+  },
+  "website": "https://quickbooks.intuit.com/",
+  "docs": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+  "tags": ["accounting", "invoicing", "cashflow", "services"]
+}
+

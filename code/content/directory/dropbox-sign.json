@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Dropbox Sign（HelloSign）", "en": "Dropbox Sign (HelloSign)" },
+  "description": {
+    "zh": "电子签/合同签署工具（原 HelloSign）。适合中小团队/一人公司做轻量化签署与模板化合同。",
+    "en": "E-signature tool (formerly HelloSign). Lightweight signing and reusable templates for small teams."
+  },
+  "website": "https://sign.dropbox.com/",
+  "docs": "https://developers.hellosign.com/",
+  "tags": ["contract", "esign", "template", "services"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "FreshBooks", "en": "FreshBooks" },
+  "description": {
+    "zh": "面向自由职业/小团队的发票与记账工具。适合做发票、费用、客户管理；一人公司重点是把“对账 → 催款”流程固定化。",
+    "en": "Invoicing and accounting for freelancers/small teams. Useful for invoices, expenses, and client tracking."
+  },
+  "website": "https://www.freshbooks.com/",
+  "docs": "https://www.freshbooks.com/api/start/",
+  "tags": ["invoicing", "accounting", "cashflow", "services"]
+}
+

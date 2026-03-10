@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Xero", "en": "Xero" },
+  "description": {
+    "zh": "记账/财务管理平台（偏中小企业）。适合更长期的财务体系（对账、税务、发票）。如果你只做少量项目，先用简单发票系统即可。",
+    "en": "Accounting platform for SMBs. Good for longer-term bookkeeping (reconciliation, tax, invoices)."
+  },
+  "website": "https://www.xero.com/",
+  "docs": "https://developer.xero.com/",
+  "tags": ["accounting", "invoicing", "finance", "services"]
+}
+

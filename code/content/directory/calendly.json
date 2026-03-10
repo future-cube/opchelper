@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Calendly", "en": "Calendly" },
+  "description": {
+    "zh": "日程预约/自动排期工具（链接即可约时间）。适合用在咨询/售前电话，减少来回沟通；注意提前设置时区与可用时间块。",
+    "en": "Scheduling tool for booking calls via a link. Great for discovery calls; set timezone and availability blocks carefully."
+  },
+  "website": "https://calendly.com/",
+  "docs": "https://developer.calendly.com/",
+  "tags": ["scheduling", "sales", "services", "creator"]
+}
+

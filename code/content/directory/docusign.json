@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "DocuSign", "en": "DocuSign" },
+  "description": {
+    "zh": "电子签/合同签署平台。适合标准化 SOW/合同流程、减少扯皮；对一人公司来说，核心价值是“签署 + 时间戳 + 可追溯”。",
+    "en": "E-signature platform for contracts/SOW. Great for a traceable signing workflow with timestamps and audit trail."
+  },
+  "website": "https://www.docusign.com/",
+  "docs": "https://developers.docusign.com/",
+  "tags": ["contract", "esign", "sow", "services", "compliance"]
+}
+

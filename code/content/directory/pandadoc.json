@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "PandaDoc", "en": "PandaDoc" },
+  "description": {
+    "zh": "提案/报价/合同一体化工具（含电子签）。适合把“报价 → 签约 → 回款”做成一条线，尤其适合有固定套餐的服务。",
+    "en": "Proposals + pricing + contracts (with e-sign). Good for a single pipeline from quote → sign → get paid."
+  },
+  "website": "https://www.pandadoc.com/",
+  "docs": "https://developers.pandadoc.com/",
+  "tags": ["proposal", "contract", "esign", "pricing", "services"]
+}
+
