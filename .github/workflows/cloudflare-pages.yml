@@ -35,9 +35,13 @@ jobs:
       - name: Generate static site (SSG)
         run: pnpm -C code generate
 
-      - name: Deploy to Cloudflare Pages (Wrangler)
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy code/.output/public --project-name=opchelper --branch=main
+      - name: Install Wrangler
+        run: npm i -g wrangler@3
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          wrangler --version
+          wrangler pages deploy code/.output/public --project-name=opchelper --branch=main --account-id="$CLOUDFLARE_ACCOUNT_ID"
