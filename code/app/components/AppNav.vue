@@ -76,6 +76,8 @@ const navItems = computed(() => [
           :key="item.label"
           :to="item.to"
           class="text-sm text-slate-600 transition hover:text-slate-900 dark:text-slate-200/80 dark:hover:text-slate-100"
+          active-class="text-slate-900 dark:text-slate-100 font-medium"
+          exact-active-class="text-slate-900 dark:text-slate-100 font-medium"
         >
           {{ item.label }}
         </NuxtLink>
@@ -137,6 +139,8 @@ const navItems = computed(() => [
             :key="item.label"
             :to="item.to"
             class="block rounded-2xl px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 dark:text-slate-200/80 dark:hover:bg-white/10"
+            active-class="bg-slate-50 text-slate-900 dark:bg-white/10 dark:text-slate-100"
+            exact-active-class="bg-slate-50 text-slate-900 dark:bg-white/10 dark:text-slate-100"
             @click="closeMobile"
           >
             {{ item.label }}

@@ -6,10 +6,9 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        content: "76rem"
+        content: "80rem"
       }
     }
   },
   plugins: []
 } satisfies Config;
-
