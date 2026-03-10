@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Chroma", "en": "Chroma" },
+  "description": {
+    "zh": "向量存储/数据库（以官方文档为准）。适合做轻量级 RAG 原型与本地实验。",
+    "en": "Vector store/database for lightweight RAG prototypes and local experiments (see docs)."
+  },
+  "website": "https://www.trychroma.com/",
+  "docs": "https://docs.trychroma.com/",
+  "tags": ["vector-db", "local", "rag"]
+}
+

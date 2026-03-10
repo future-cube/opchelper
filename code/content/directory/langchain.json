@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "LangChain", "en": "LangChain" },
+  "description": {
+    "zh": "构建 LLM 应用的框架：链式调用、工具调用、RAG 等（以官方文档为准）。适合做原型与工程化落地。",
+    "en": "Framework for building LLM apps: tool calling, RAG, and orchestration (see docs)."
+  },
+  "website": "https://www.langchain.com/",
+  "docs": "https://docs.langchain.com/oss/python/learn",
+  "tags": ["framework", "rag", "agents"]
+}
+

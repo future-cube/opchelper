@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Model Context Protocol（MCP）", "en": "Model Context Protocol (MCP)" },
+  "description": {
+    "zh": "让 AI 助手安全地连接外部工具/数据源的协议与生态（以官方文档为准）。适合把“知识库/系统操作/API”接入到可控的工作流里。",
+    "en": "A protocol/ecosystem for connecting assistants to tools and data sources (see docs)."
+  },
+  "website": "https://modelcontextprotocol.io/",
+  "docs": "https://modelcontextprotocol.io/docs/learn/architecture",
+  "tags": ["protocol", "tools", "integration", "agent"]
+}
+

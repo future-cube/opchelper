@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Milvus", "en": "Milvus" },
+  "description": {
+    "zh": "开源向量数据库（以官方文档为准）。适合需要可控部署与较强可扩展性的团队。",
+    "en": "Open-source vector database (see docs). Good for self-hosted scalable setups."
+  },
+  "website": "https://milvus.io/",
+  "docs": "https://milvus.io/docs",
+  "tags": ["vector-db", "open-source", "rag"]
+}
+

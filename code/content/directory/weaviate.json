@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Weaviate", "en": "Weaviate" },
+  "description": {
+    "zh": "向量数据库/检索平台（以官方文档为准）。适合做语义检索、知识库与 RAG。",
+    "en": "Vector database/search platform for semantic search and RAG (see docs)."
+  },
+  "website": "https://weaviate.io/",
+  "docs": "https://weaviate.io/developers/weaviate/",
+  "tags": ["vector-db", "rag", "search"]
+}
+

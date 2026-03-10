@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Pinecone", "en": "Pinecone" },
+  "description": {
+    "zh": "托管式向量数据库（以官方文档为准）。适合快速上手 RAG/检索，减少自运维成本。",
+    "en": "Managed vector database for quick RAG/similarity search with low ops overhead (see docs)."
+  },
+  "website": "https://www.pinecone.io/",
+  "docs": "https://docs.pinecone.io/",
+  "tags": ["vector-db", "managed", "rag"]
+}
+

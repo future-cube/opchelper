@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Groq", "en": "Groq" },
+  "description": {
+    "zh": "模型推理平台（以官方文档为准）。常见特点是低延迟；适合对响应速度敏感的场景做备份与对比。",
+    "en": "Inference platform (see docs). Often chosen for low-latency use cases and comparisons."
+  },
+  "website": "https://groq.com/",
+  "docs": "https://console.groq.com/docs/",
+  "tags": ["llm", "api", "inference"]
+}
+

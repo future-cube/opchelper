@@ -1,0 +1,12 @@
+{
+  "category": "provider",
+  "name": { "zh": "Together AI", "en": "Together AI" },
+  "description": {
+    "zh": "模型与推理平台（以官方文档为准）。适合用 OpenAI 兼容 API 方式快速集成多种模型。",
+    "en": "Model/inference platform (see docs). Often provides OpenAI-compatible APIs for quick integration."
+  },
+  "website": "https://www.together.ai/",
+  "docs": "https://docs.together.ai/",
+  "tags": ["llm", "api", "openai-compatible"]
+}
+

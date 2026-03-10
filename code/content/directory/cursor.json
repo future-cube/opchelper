@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Cursor", "en": "Cursor" },
+  "description": {
+    "zh": "带 AI 能力的代码编辑器（IDE）。适合日常编码 + 项目级问答；建议用 `.cursorignore` 明确哪些目录/文件不让索引与读取。",
+    "en": "AI-powered code editor (IDE) for daily coding and project-level Q&A. Use `.cursorignore` to exclude sensitive/noisy paths."
+  },
+  "website": "https://www.cursor.com/",
+  "docs": "https://docs.cursor.com/",
+  "tags": ["coding", "editor", "ide", "rules"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Ollama", "en": "Ollama" },
+  "description": {
+    "zh": "本地运行大模型的工具/运行时（本地优先）。适合做离线/内网场景的原型验证或本地助手。",
+    "en": "Local LLM runtime/tooling. Useful for offline or local-first prototypes and assistants."
+  },
+  "website": "https://ollama.com/",
+  "docs": "https://ollama.readthedocs.io/en/quickstart/",
+  "tags": ["local", "llm", "runtime"]
+}
+

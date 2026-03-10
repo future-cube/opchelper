@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Qdrant", "en": "Qdrant" },
+  "description": {
+    "zh": "向量数据库（Vector DB）。适合做 RAG、相似度检索与推荐（以官方文档为准）。",
+    "en": "Vector database for similarity search and RAG (see docs)."
+  },
+  "website": "https://qdrant.tech/",
+  "docs": "https://qdrant.tech/documentation/",
+  "tags": ["vector-db", "rag", "search"]
+}
+

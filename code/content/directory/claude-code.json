@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Claude Code", "en": "Claude Code" },
+  "description": {
+    "zh": "Anthropic 的终端编程助手（CLI）。适合在真实项目里做代码理解、修改与自动化任务；建议配置权限与忽略规则，避免误改密钥与大文件。",
+    "en": "Anthropic's coding assistant CLI for real projects. Configure permissions and ignore rules to avoid touching secrets or large files."
+  },
+  "website": "https://www.anthropic.com/claude-code",
+  "docs": "https://docs.anthropic.com/en/docs/claude-code/overview",
+  "tags": ["coding", "cli", "agent", "anthropic"]
+}
+

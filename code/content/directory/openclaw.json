@@ -2,11 +2,10 @@
   "category": "tool",
   "name": { "zh": "OpenClaw", "en": "OpenClaw" },
   "description": {
-    "zh": "自动化/工作流助手系统（以官方文档为准）。适合把“每周重复工作”变成可复用的流水线。",
-    "en": "Workflow automation/assistant system (see official docs). Useful for turning recurring work into reusable pipelines."
+    "zh": "开源“计算机使用”代理：可用工具与工作流在本地执行任务（以官方文档为准）。适合把资料收集、内容处理、重复操作做成可跑的流水线。",
+    "en": "Open-source computer-use agent to run tasks locally via tools/workflows (see official docs). Good for repeatable pipelines."
   },
-  "website": "https://docs.openclaw.ai/",
-  "docs": "https://docs.openclaw.ai/",
-  "tags": ["automation", "workflow", "agent"]
+  "website": "https://openclaw.ai/",
+  "docs": "https://docs.openclaw.ai/quickstart/",
+  "tags": ["automation", "agent", "workflow", "computer-use"]
 }
-

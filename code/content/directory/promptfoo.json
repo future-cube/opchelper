@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "promptfoo", "en": "promptfoo" },
+  "description": {
+    "zh": "提示词/模型评测工具（以官方文档为准）。适合做回归测试、对比不同模型输出、评估提示词改动影响。",
+    "en": "Prompt/model evaluation tool for regression tests and comparisons (see docs)."
+  },
+  "website": "https://www.promptfoo.dev/",
+  "docs": "https://www.promptfoo.dev/",
+  "tags": ["evals", "testing", "prompt"]
+}
+

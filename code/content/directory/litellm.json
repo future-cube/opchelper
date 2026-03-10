@@ -1,0 +1,12 @@
+{
+  "category": "gateway",
+  "name": { "zh": "LiteLLM", "en": "LiteLLM" },
+  "description": {
+    "zh": "统一多家模型的网关/代理（常见为 OpenAI 兼容接口）。适合做路由、限流、统一鉴权与成本/日志集中管理。",
+    "en": "Gateway/proxy for multiple LLM providers (often OpenAI-compatible). Useful for routing, auth, rate limits, and centralized logging."
+  },
+  "website": "https://www.litellm.ai/",
+  "docs": "https://docs.litellm.ai/",
+  "tags": ["gateway", "routing", "openai-compatible"]
+}
+
