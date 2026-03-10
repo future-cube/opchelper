@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "WooCommerce", "en": "WooCommerce" },
+  "description": {
+    "zh": "WordPress 电商插件，可售卖可下载/虚拟商品。适合可控性优先（自有站点），但需要你自己维护站点与支付/插件生态。",
+    "en": "WordPress e-commerce plugin supporting downloadable products. High control, but you maintain the site and plugin stack."
+  },
+  "website": "https://woocommerce.com/",
+  "docs": "https://woocommerce.com/document/digital-downloadable-product-handling/",
+  "tags": ["wordpress", "ecommerce", "digital-product", "download", "self-hosted"]
+}
+

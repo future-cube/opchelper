@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Payhip", "en": "Payhip" },
+  "description": {
+    "zh": "数字产品/虚拟资料售卖平台（含支付与自动交付）。适合快速验证与起步；注意把“邮箱/用户”当资产，避免平台依赖。",
+    "en": "Digital product platform with payments and automatic delivery. Fast to start; treat your customer list as the asset."
+  },
+  "website": "https://payhip.com/",
+  "docs": "https://help.payhip.com/article/59-adding-a-digital-product",
+  "tags": ["digital-product", "download", "store", "creator", "monetization"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Podia", "en": "Podia" },
+  "description": {
+    "zh": "面向创作者的销售平台（数字下载、课程、会员等）。适合把“内容 + 产品”打包在同一处，但仍要注意可迁移性与数据导出。",
+    "en": "Creator platform (digital downloads, courses, memberships). Useful for bundling content + products in one place."
+  },
+  "website": "https://www.podia.com/",
+  "docs": "https://www.podia.com/digital-downloads/",
+  "tags": ["digital-product", "course", "membership", "creator", "store"]
+}
+

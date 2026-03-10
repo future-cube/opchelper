@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "Shopify", "en": "Shopify" },
+  "description": {
+    "zh": "电商平台（偏独立站）。可通过应用实现数字产品下载交付，适合“品牌化 + 长期经营”，但成本与配置复杂度更高。",
+    "en": "E-commerce platform for branded stores. Digital delivery is typically done via apps; higher cost and complexity but strong for long-term brands."
+  },
+  "website": "https://www.shopify.com/",
+  "docs": "https://help.shopify.com/en/manual/products/digital-service-product/selling-services-or-digital-products",
+  "tags": ["ecommerce", "store", "digital-product", "brand", "payments"]
+}
+
