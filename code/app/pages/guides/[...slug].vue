@@ -6,6 +6,12 @@ const slug = computed(() => {
   return Array.isArray(p) ? p.join("/") : String(p ?? "");
 });
 const path = computed(() => `/${locale.value}/guides/${slug.value}`);
+
+const notFound = computed(() =>
+  locale.value === "zh"
+    ? { title: "未找到", desc: "当前语言还没有这篇文章。你可以切换语言或先看其他文章。" }
+    : { title: "Not found", desc: "This guide does not exist in the current language yet." }
+);
 </script>
 
 <template>
@@ -13,11 +19,10 @@ const path = computed(() => `/${locale.value}/guides/${slug.value}`);
     <article class="prose prose-invert max-w-none prose-headings:scroll-mt-24">
       <ContentDoc :path="path">
         <template #not-found>
-          <h1>Not found</h1>
-          <p>This guide does not exist in the current language yet.</p>
+          <h1>{{ notFound.title }}</h1>
+          <p>{{ notFound.desc }}</p>
         </template>
       </ContentDoc>
     </article>
   </section>
 </template>
-

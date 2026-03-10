@@ -1,9 +1,10 @@
 <script setup lang="ts">
 const { locale } = useI18n();
-const tagline =
+const tagline = computed(() =>
   locale.value === "zh"
     ? "静态优先 · Cloudflare Pages · 后续可演进管理功能"
-    : "Static-first · Cloudflare Pages · Future-ready for management features";
+    : "Static-first · Cloudflare Pages · Future-ready for management features"
+);
 </script>
 
 <template>
@@ -18,4 +19,3 @@ const tagline =
     </div>
   </footer>
 </template>
-

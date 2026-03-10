@@ -2,13 +2,27 @@
 const { locale } = useI18n();
 const localePath = useLocalePath();
 const basePath = computed(() => `/${locale.value}/guides`);
+
+const copy = computed(() =>
+  locale.value === "zh"
+    ? {
+        title: "学习（Guides）",
+        intro:
+          "面向一人公司的实战教程与路线图。建议先跑通一个最短闭环：获客 → 交付 → 回款 → 复盘，再逐步扩展。"
+      }
+    : {
+        title: "Guides",
+        intro:
+          "Practical learning paths for one-person companies. Start with one loop: acquire → deliver → get paid → review."
+      }
+);
 </script>
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">Guides</h1>
+    <h1 class="text-3xl font-semibold tracking-tight text-white">{{ copy.title }}</h1>
     <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
-      Practical learning paths for one-person companies. Start with one loop: acquire → deliver → get paid → review.
+      {{ copy.intro }}
     </p>
 
     <div class="mt-8">

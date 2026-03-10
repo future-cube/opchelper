@@ -47,9 +47,15 @@ const titleFor = (cat: DirectoryCategory): string => {
 
 <template>
   <section class="py-6 sm:py-10">
-    <h1 class="text-3xl font-semibold tracking-tight text-white">Directory</h1>
+    <h1 class="text-3xl font-semibold tracking-tight text-white">
+      {{ lang === 'zh' ? '导航（Directory）' : 'Directory' }}
+    </h1>
     <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-200/80 sm:text-base">
-      Curated navigation for solo operators: model providers, gateways, and practical tools.
+      {{
+        lang === 'zh'
+          ? '为一人公司精选的资源导航：大模型供应商、聚合/中转平台、常用工具与相关网站。建议先选“主力供应商 + 备份网关”，再补齐工具栈。'
+          : 'Curated navigation for solo operators: model providers, gateways/aggregators, and practical tools.'
+      }}
     </p>
 
     <div class="mt-8 space-y-10">
