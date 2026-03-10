@@ -53,6 +53,16 @@
 - OpenCode CLI docs: https://opencode.ai/docs/cli/
 - OpenClaw website: https://openclaw.ai/
 - OpenClaw Quickstart: https://docs.openclaw.ai/quickstart/
+- GitHub Copilot docs: https://docs.github.com/en/copilot
+- GitHub Copilot product page: https://github.com/features/copilot
+- VS Code Copilot Chat (Ask mode): https://code.visualstudio.com/docs/copilot/chat/chat-ask-mode
+- JetBrains AI Assistant docs: https://www.jetbrains.com/help/idea/ai-assistant.html
+- Windsurf docs: https://docs.windsurf.com/
+
+## Antigravity (media coverage only)
+
+- Android Central: https://www.androidcentral.com/apps-software/google-antigravity-ai-editor
+- Windows Central: https://www.windowscentral.com/software-apps/google-antigravity-is-an-open-source-ai-editor-built-with-gemini
 
 ## Vector Databases / Vector Stores
 

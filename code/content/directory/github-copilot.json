@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "GitHub Copilot", "en": "GitHub Copilot" },
+  "description": {
+    "zh": "GitHub 的 AI 编程助手（补全 + Chat）。适合日常编码与代码理解；建议结合忽略规则与团队规范，避免把敏感内容带入上下文。",
+    "en": "GitHub's AI coding assistant (completions + chat). Use with ignore rules and team guidelines to avoid leaking sensitive context."
+  },
+  "website": "https://github.com/features/copilot",
+  "docs": "https://docs.github.com/en/copilot",
+  "tags": ["coding", "ide", "assistant", "github"]
+}
+

@@ -1,0 +1,12 @@
+{
+  "category": "tool",
+  "name": { "zh": "JetBrains AI Assistant", "en": "JetBrains AI Assistant" },
+  "description": {
+    "zh": "JetBrains IDE 的 AI 助手（以官方文档为准）。适合在 IntelliJ/PyCharm/WebStorm 等 IDE 里做代码解释、生成文档与辅助修改。",
+    "en": "AI Assistant in JetBrains IDEs (see docs). Useful for code explanations, docs generation, and assisted changes inside JetBrains IDEs."
+  },
+  "website": "https://www.jetbrains.com/",
+  "docs": "https://www.jetbrains.com/help/idea/ai-assistant.html",
+  "tags": ["coding", "ide", "jetbrains", "assistant"]
+}
+

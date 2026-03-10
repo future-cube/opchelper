@@ -1,0 +1,12 @@
+{
+  "category": "site",
+  "name": { "zh": "反重力（Antigravity，媒体报道）", "en": "Antigravity (media coverage)" },
+  "description": {
+    "zh": "媒体报道中的“Google Antigravity”相关信息入口。注意：在没有明确官方发布与下载渠道前，不建议从非官方站点安装。",
+    "en": "Media coverage for “Google Antigravity”. Caution: avoid installing from non-official sites unless an official channel is confirmed."
+  },
+  "website": "https://www.androidcentral.com/apps-software/google-antigravity-ai-editor",
+  "docs": "https://www.windowscentral.com/software-apps/google-antigravity-is-an-open-source-ai-editor-built-with-gemini",
+  "tags": ["coding", "editor", "security", "news"]
+}
+
