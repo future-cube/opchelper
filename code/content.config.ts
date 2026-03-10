@@ -28,6 +28,60 @@ export default defineContentConfig({
         updatedAt: z.string().optional()
       })
     }),
+    playbooksZh: defineCollection({
+      type: "page",
+      source: {
+        include: "content/zh/playbooks/**",
+        prefix: "/zh/playbooks"
+      },
+      schema: z.object({
+        title: z.string(),
+        description: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        updatedAt: z.string().optional()
+      })
+    }),
+    playbooksEn: defineCollection({
+      type: "page",
+      source: {
+        include: "content/en/playbooks/**",
+        prefix: "/en/playbooks"
+      },
+      schema: z.object({
+        title: z.string(),
+        description: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        updatedAt: z.string().optional()
+      })
+    }),
+    downloadsZh: defineCollection({
+      type: "page",
+      source: {
+        include: "content/zh/downloads/**",
+        prefix: "/zh/downloads"
+      },
+      schema: z.object({
+        title: z.string(),
+        description: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        updatedAt: z.string().optional(),
+        downloadUrl: z.string().optional()
+      })
+    }),
+    downloadsEn: defineCollection({
+      type: "page",
+      source: {
+        include: "content/en/downloads/**",
+        prefix: "/en/downloads"
+      },
+      schema: z.object({
+        title: z.string(),
+        description: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        updatedAt: z.string().optional(),
+        downloadUrl: z.string().optional()
+      })
+    }),
     directory: defineCollection({
       type: "data",
       source: {
@@ -45,4 +99,3 @@ export default defineContentConfig({
     })
   }
 });
-
