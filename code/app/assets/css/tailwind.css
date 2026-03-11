@@ -19,6 +19,31 @@ html.dark {
     @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8;
   }
 
+  .opc-prose {
+    @apply prose max-w-none;
+    @apply prose-headings:scroll-mt-24 prose-headings:tracking-tight;
+    @apply prose-p:text-slate-700 prose-li:text-slate-700 prose-strong:text-slate-900;
+    @apply prose-a:text-indigo-600 hover:prose-a:text-indigo-500 prose-a:no-underline hover:prose-a:underline;
+    @apply prose-code:rounded prose-code:bg-slate-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:text-slate-900;
+    @apply prose-pre:rounded-2xl prose-pre:bg-slate-950 prose-pre:text-slate-100 prose-pre:ring-1 prose-pre:ring-slate-800/50;
+    @apply prose-hr:border-slate-200;
+    @apply dark:prose-invert;
+    @apply dark:prose-p:text-slate-200/80 dark:prose-li:text-slate-200/80 dark:prose-strong:text-slate-100;
+    @apply dark:prose-code:bg-white/10 dark:prose-code:text-slate-100;
+    @apply dark:prose-pre:bg-slate-950 dark:prose-pre:ring-white/10;
+    @apply dark:prose-hr:border-white/10;
+  }
+
+  .opc-toc {
+    @apply rounded-3xl bg-white p-5 ring-1 ring-slate-200/70 shadow-sm shadow-slate-900/5;
+    @apply dark:bg-white/5 dark:ring-white/10 dark:shadow-none;
+  }
+
+  .opc-toc a {
+    @apply text-slate-600 hover:text-slate-900;
+    @apply dark:text-slate-200/75 dark:hover:text-slate-100;
+  }
+
   .opc-card {
     @apply rounded-3xl bg-white p-5 ring-1 ring-slate-200/70 shadow-sm shadow-slate-900/5 transition;
     @apply dark:bg-white/5 dark:ring-white/10 dark:shadow-none;

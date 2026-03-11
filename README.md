@@ -44,3 +44,8 @@ pnpm -C code preview
 
 如果需要更详细的运营方案，请看：
 - `docs/ops/operations-plan.zh-CN.md`
+
+## 内容写作（本地工作流）
+
+- 写作工作流与模板：`docs/content-workflow.zh-CN.md`
+- 内容地图（站内索引）：`/zh/content-map`（中文）与 `/en/content-map`（English）

@@ -38,14 +38,25 @@ useHead(() => {
 
 <template>
   <section class="py-6 sm:py-10">
-    <article class="prose max-w-none prose-headings:scroll-mt-24 dark:prose-invert">
-      <template v-if="doc">
-        <ContentRenderer :value="doc" />
-      </template>
-      <template v-else>
-        <h1>{{ notFound.title }}</h1>
-        <p>{{ notFound.desc }}</p>
-      </template>
-    </article>
+    <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">
+      <article class="opc-prose min-w-0">
+        <template v-if="doc">
+          <ContentRenderer :value="doc" />
+        </template>
+        <template v-else>
+          <h1>{{ notFound.title }}</h1>
+          <p>{{ notFound.desc }}</p>
+        </template>
+      </article>
+
+      <div class="hidden lg:block">
+        <ContentSidebar
+          :locale="(locale === 'zh' ? 'zh' : 'en')"
+          :current-path="path"
+          :collection="(collection as any)"
+          :toc-links="(doc as any)?.body?.toc?.links"
+        />
+      </div>
+    </div>
   </section>
 </template>

@@ -51,6 +51,7 @@ const navItems = computed(() => [
   { to: localePath("/directory"), label: labels.value.directory },
   { to: localePath("/tools"), label: labels.value.tools },
   { to: localePath("/downloads"), label: labels.value.downloads },
+  { to: localePath("/content-map"), label: locale.value === "zh" ? "内容地图" : "Map" },
   { to: localePath("/about"), label: labels.value.about }
 ]);
 </script>
