@@ -48,7 +48,7 @@ updatedAt: "2026-03-10"
 
 ## 5）下一步（站内路径）
 
-- 0→1 闭环：`/zh/guides/virtual-products-0to1`
-- 定价与套餐：`/zh/guides/virtual-products-pricing`
-- 手册：数字产品型一人公司：`/zh/playbook/digital-downloads`
+- 0→1 闭环：[`/zh/guides/virtual-products-0to1`](/zh/guides/virtual-products-0to1)
+- 定价与套餐：[`/zh/guides/virtual-products-pricing`](/zh/guides/virtual-products-pricing)
+- 手册：数字产品型一人公司：[`/zh/playbook/digital-downloads`](/zh/playbook/digital-downloads)
 

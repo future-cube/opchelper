@@ -55,7 +55,7 @@ pnpm -C code generate
 
 ## 4）下一步
 
-- Cursor 入门（忽略规则）：`/zh/guides/cursor-rules-starter`
-- AI 工具地图：`/zh/guides/ai-coding-tools-map`
-- 资源导航：`/zh/directory`
+- Cursor 入门（忽略规则）：[`/zh/guides/cursor-rules-starter`](/zh/guides/cursor-rules-starter)
+- AI 工具地图：[`/zh/guides/ai-coding-tools-map`](/zh/guides/ai-coding-tools-map)
+- 资源导航：[`/zh/directory`](/zh/directory)
 

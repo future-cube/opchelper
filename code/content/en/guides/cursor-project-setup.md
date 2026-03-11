@@ -11,5 +11,5 @@ Start with context control:
 
 Then enforce repo rules (language preference, change scope, verification commands). In this repo, `AGENTS.md` is the “single source of truth” for tool behavior.
 
-Next: `/en/guides/cursor-rules-starter`
+Next: [`/en/guides/cursor-rules-starter`](/en/guides/cursor-rules-starter)
 

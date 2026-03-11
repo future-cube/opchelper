@@ -14,5 +14,5 @@ Getting paid is not “awkward”. It’s a system.
 3) A reminder sequence (Day 0 / 3 / 7 / 14)  
 4) If overdue, pause delivery until payment clears
 
-Use templates in `/en/downloads` and the generator in `/en/tools/templates`.
+Use templates in [`/en/downloads`](/en/downloads) and the generator in [`/en/tools/templates`](/en/tools/templates).
 

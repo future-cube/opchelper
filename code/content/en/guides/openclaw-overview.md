@@ -11,7 +11,7 @@ Official docs:
 - https://docs.openclaw.ai/
 
 Site navigation:
-- Directory: `/en/directory`
+- Directory: [`/en/directory`](/en/directory)
 
 ## Why solo operators need workflows
 

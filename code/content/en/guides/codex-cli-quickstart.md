@@ -19,5 +19,5 @@ Goal: treat Codex as a **controlled teammate**, not a magic button.
 - Start with minimal permissions: read → plan → you approve → write.
 - Work in small, reversible steps with clear diffs and verification commands.
 
-Next: Directory `/en/directory`
+Next: Directory [`/en/directory`](/en/directory)
 

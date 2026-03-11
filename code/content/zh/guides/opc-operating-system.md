@@ -38,9 +38,9 @@ updatedAt: "2026-03-10"
 
 你可以先用本站的：
 - 导航（Directory）：找平台与工具  
-  `/zh/directory`
+  [`/zh/directory`](/zh/directory)
 - 下载（Downloads）：放你的“领取物”  
-  `/zh/downloads`
+  [`/zh/downloads`](/zh/downloads)
 
 ---
 
@@ -52,8 +52,8 @@ updatedAt: "2026-03-10"
 - 变更管理（新增需求 = 重新估价/排期）
 
 推荐下载：
-- 项目简报模板：`/zh/downloads/project-brief-template`
-- 需求变更模板：`/zh/downloads/change-request-template`
+- 项目简报模板：[`/zh/downloads/project-brief-template`](/zh/downloads/project-brief-template)
+- 需求变更模板：[`/zh/downloads/change-request-template`](/zh/downloads/change-request-template)
 
 ---
 
@@ -65,7 +65,7 @@ updatedAt: "2026-03-10"
 - 升级处理（坚定：暂停交付/升级沟通）
 
 推荐下载：
-- 催款邮件模板：`/zh/downloads/payment-reminder-email`
+- 催款邮件模板：[`/zh/downloads/payment-reminder-email`](/zh/downloads/payment-reminder-email)
 
 ---
 
@@ -80,14 +80,14 @@ updatedAt: "2026-03-10"
 - 下周重点：只定 1–2 项
 
 推荐下载：
-- 每周复盘清单：`/zh/downloads/weekly-review-checklist`
+- 每周复盘清单：[`/zh/downloads/weekly-review-checklist`](/zh/downloads/weekly-review-checklist)
 
 ---
 
 ## 5）下一步：选择你的赛道手册
 
 如果你是：
-- 内容创作者：`/zh/playbook` 里找「创作者 30 天起步手册」
-- 服务/咨询：`/zh/playbook` 里找「服务/咨询 0–1 手册」
-- 虚拟资料：`/zh/playbook` 里找「虚拟资料销售手册」
+- 内容创作者：[`/zh/playbook`](/zh/playbook) 里找「创作者 30 天起步手册」
+- 服务/咨询：[`/zh/playbook`](/zh/playbook) 里找「服务/咨询 0–1 手册」
+- 虚拟资料：[`/zh/playbook`](/zh/playbook) 里找「虚拟资料销售手册」
 

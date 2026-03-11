@@ -59,7 +59,7 @@ updatedAt: "2026-03-10"
 - 内容平台（引流）+ 售卖平台（收款/交付）
 - 或者独立站（更可控，但搭建成本更高）
 
-站内工具导航：`/zh/directory`
+站内工具导航：[`/zh/directory`](/zh/directory)
 
 ## 5）引流：每篇内容都要有一个固定 CTA
 
@@ -85,8 +85,8 @@ updatedAt: "2026-03-10"
 
 ## 7）下一步（站内路径）
 
-- 手册：数字产品型一人公司：`/zh/playbook/digital-downloads`
-- 指南：定价与套餐：`/zh/guides/virtual-products-pricing`
-- 指南：交付与售后（含退款/更新）：`/zh/guides/virtual-products-delivery`
-- 下载：产品页/退款政策/更新日志模板：`/zh/downloads`
+- 手册：数字产品型一人公司：[`/zh/playbook/digital-downloads`](/zh/playbook/digital-downloads)
+- 指南：定价与套餐：[`/zh/guides/virtual-products-pricing`](/zh/guides/virtual-products-pricing)
+- 指南：交付与售后（含退款/更新）：[`/zh/guides/virtual-products-delivery`](/zh/guides/virtual-products-delivery)
+- 下载：产品页/退款政策/更新日志模板：[`/zh/downloads`](/zh/downloads)
 

@@ -64,5 +64,5 @@ Output:
 
 ## 5) Next steps
 
-- AI coding tools map: `/en/guides/ai-coding-tools-map`
-- AI tools directory: `/en/directory`
+- AI coding tools map: [`/en/guides/ai-coding-tools-map`](/en/guides/ai-coding-tools-map)
+- AI tools directory: [`/en/directory`](/en/directory)

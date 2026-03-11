@@ -11,5 +11,5 @@ Minimal steps:
 - write a 3-email welcome sequence
 - commit to 2–3 recurring series
 
-Directory: `/en/directory`
+Directory: [`/en/directory`](/en/directory)
 

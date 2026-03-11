@@ -57,7 +57,7 @@ updatedAt: "2026-03-10"
 并且把每次交付写进“验收清单”，避免扯皮。
 
 站内指南（建议配合执行）：
-- 稳定交付：`/zh/guides/services-delivery-cadence`
+- 稳定交付：[`/zh/guides/services-delivery-cadence`](/zh/guides/services-delivery-cadence)
 
 ## 6）回款系统（务必标准化）
 
@@ -72,13 +72,13 @@ updatedAt: "2026-03-10"
 - 保留暂停交付的权利
 
 站内指南（建议配合执行）：
-- 按时回款：`/zh/guides/get-paid-on-time`
+- 按时回款：[`/zh/guides/get-paid-on-time`](/zh/guides/get-paid-on-time)
 
 ## 7）下一步（推荐你去 Downloads）
 
-- 下载：项目简报模板：`/zh/downloads/project-brief-template`
-- 下载：需求变更说明模板：`/zh/downloads/change-request-template`
-- 下载：催款邮件模板：`/zh/downloads/payment-reminder-email`
+- 下载：项目简报模板：[`/zh/downloads/project-brief-template`](/zh/downloads/project-brief-template)
+- 下载：需求变更说明模板：[`/zh/downloads/change-request-template`](/zh/downloads/change-request-template)
+- 下载：催款邮件模板：[`/zh/downloads/payment-reminder-email`](/zh/downloads/payment-reminder-email)
 
 以及工具导航（用来选工具，不必一次买齐）：
-- 导航：`/zh/directory`
+- 导航：[`/zh/directory`](/zh/directory)

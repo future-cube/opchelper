@@ -16,5 +16,5 @@ Recommended workflow:
 - Start with minimal permissions.
 - Ask for a plan + diffs + verification before applying changes.
 
-Next: Directory `/en/directory`
+Next: Directory [`/en/directory`](/en/directory)
 

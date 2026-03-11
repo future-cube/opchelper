@@ -41,7 +41,7 @@ updatedAt: "2026-03-10"
 
 ## 4）下一步
 
-- AI 工具地图：`/zh/guides/ai-coding-tools-map`
-- 资源导航：`/zh/directory`
-- 可下载执行清单：`/zh/downloads/ai-coding-checklist`
+- AI 工具地图：[`/zh/guides/ai-coding-tools-map`](/zh/guides/ai-coding-tools-map)
+- 资源导航：[`/zh/directory`](/zh/directory)
+- 可下载执行清单：[`/zh/downloads/ai-coding-checklist`](/zh/downloads/ai-coding-checklist)
 

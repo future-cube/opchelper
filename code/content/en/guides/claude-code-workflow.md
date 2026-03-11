@@ -16,5 +16,5 @@ Recommended pattern:
 3) implement one step (minimal diff)
 4) verify (build/test) and explain
 
-Next: `/en/directory`
+Next: [`/en/directory`](/en/directory)
 

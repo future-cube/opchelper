@@ -41,6 +41,6 @@ dist/
 
 ## 4）下一步
 
-- AI 工具导航：`/zh/directory`
+- AI 工具导航：[`/zh/directory`](/zh/directory)
 - 本项目规则：`/AGENTS.md`
 

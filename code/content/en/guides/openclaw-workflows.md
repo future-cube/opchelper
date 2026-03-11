@@ -13,6 +13,6 @@ This guide focuses on three repeatable loops:
 Start read-only, write outputs into a dedicated `outputs/` folder, and only move verified results into your real repo.
 
 Next:
-- `/en/guides/openclaw-troubleshooting`
-- `/en/directory`
+- [`/en/guides/openclaw-troubleshooting`](/en/guides/openclaw-troubleshooting)
+- [`/en/directory`](/en/directory)
 

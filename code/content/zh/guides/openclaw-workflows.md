@@ -11,7 +11,7 @@ updatedAt: "2026-03-10"
 ## 0）使用前提（默认只读）
 
 建议你先把安全边界定好：
-- `/zh/guides/openclaw-safety`
+- [`/zh/guides/openclaw-safety`](/zh/guides/openclaw-safety)
 
 ## 1）闭环 A：内容生产（选题 → 草稿 → 发布清单 → 复盘）
 
@@ -40,8 +40,8 @@ updatedAt: "2026-03-10"
 4) 最后生成发布清单与复盘问题
 
 站内可配合使用：
-- 下载内容日历模板：`/zh/downloads/content-calendar`
-- 自媒体漏斗地图：`/zh/guides/newsletter-funnel`
+- 下载内容日历模板：[`/zh/downloads/content-calendar`](/zh/downloads/content-calendar)
+- 自媒体漏斗地图：[`/zh/guides/newsletter-funnel`](/zh/guides/newsletter-funnel)
 
 ## 2）闭环 B：线索跟进（线索 → 触达 → 跟进节奏 → 复盘）
 
@@ -62,7 +62,7 @@ updatedAt: "2026-03-10"
 - 一份“未成交复盘表”（为什么没成、下次怎么改）
 
 搭配下载：
-- 赞助/合作外联模板：`/zh/downloads/sponsorship-outreach`
+- 赞助/合作外联模板：[`/zh/downloads/sponsorship-outreach`](/zh/downloads/sponsorship-outreach)
 
 ## 3）闭环 C：交付与回款（简报 → 验收 → 变更 → 催款）
 
@@ -84,10 +84,10 @@ updatedAt: "2026-03-10"
 - 催款邮件（不同语气）
 
 站内直接可用：
-- 项目简报模板：`/zh/downloads/project-brief-template`
-- 验收清单：`/zh/downloads/acceptance-checklist`
-- 需求变更模板：`/zh/downloads/change-request-template`
-- 催款邮件：`/zh/downloads/payment-reminder-email`
+- 项目简报模板：[`/zh/downloads/project-brief-template`](/zh/downloads/project-brief-template)
+- 验收清单：[`/zh/downloads/acceptance-checklist`](/zh/downloads/acceptance-checklist)
+- 需求变更模板：[`/zh/downloads/change-request-template`](/zh/downloads/change-request-template)
+- 催款邮件：[`/zh/downloads/payment-reminder-email`](/zh/downloads/payment-reminder-email)
 
 ## 4）怎么把闭环变成“可复用资产”
 
@@ -104,7 +104,7 @@ updatedAt: "2026-03-10"
 
 ## 5）下一步
 
-- 安装与初始化：`/zh/guides/openclaw-install`
-- 排错与稳定性：`/zh/guides/openclaw-troubleshooting`
-- AI 工具导航：`/zh/directory`
+- 安装与初始化：[`/zh/guides/openclaw-install`](/zh/guides/openclaw-install)
+- 排错与稳定性：[`/zh/guides/openclaw-troubleshooting`](/zh/guides/openclaw-troubleshooting)
+- AI 工具导航：[`/zh/directory`](/zh/directory)
 

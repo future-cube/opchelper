@@ -67,7 +67,7 @@ updatedAt: "2026-03-10"
 
 ## 5）下一步（站内路径）
 
-- 手册：创作者 30 天起步：`/zh/playbook`
-- 下载：模板与清单：`/zh/downloads`
-- 导航：工具与平台：`/zh/directory`
+- 手册：创作者 30 天起步：[`/zh/playbook`](/zh/playbook)
+- 下载：模板与清单：[`/zh/downloads`](/zh/downloads)
+- 导航：工具与平台：[`/zh/directory`](/zh/directory)
 

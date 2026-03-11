@@ -10,5 +10,5 @@ Start simple:
 - run the minimal loop: **content → lead magnet → email/DM → paid offer**
 - build a product ladder from free → low-ticket → mid-ticket → high-ticket
 
-Tools live in the Directory: `/en/directory`
+Tools live in the Directory: [`/en/directory`](/en/directory)
 

@@ -45,5 +45,5 @@ Copilot 最容易“看起来很强但落地很乱”。
 
 ## 4）下一步
 
-- AI 编程工具地图：`/zh/guides/ai-coding-tools-map`
-- AI 工具导航：`/zh/directory`
+- AI 编程工具地图：[`/zh/guides/ai-coding-tools-map`](/zh/guides/ai-coding-tools-map)
+- AI 工具导航：[`/zh/directory`](/zh/directory)

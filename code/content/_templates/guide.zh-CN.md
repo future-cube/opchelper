@@ -44,7 +44,7 @@ updatedAt: "2026-03-11"
 
 ## 下一步
 
-- 相关教程：`/zh/guides/...`
-- 资源导航：`/zh/directory`
-- 可下载模板：`/zh/downloads`
+- 相关教程：[`/zh/guides/...`](/zh/guides/...)
+- 资源导航：[`/zh/directory`](/zh/directory)
+- 可下载模板：[`/zh/downloads`](/zh/downloads)
 

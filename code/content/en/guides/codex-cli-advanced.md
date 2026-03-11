@@ -16,6 +16,6 @@ Best practice for real repos:
 - ask for a plan first, then apply one small change at a time
 
 Next:
-- `/en/guides/codex-cli-quickstart`
-- `/en/directory`
+- [`/en/guides/codex-cli-quickstart`](/en/guides/codex-cli-quickstart)
+- [`/en/directory`](/en/directory)
 

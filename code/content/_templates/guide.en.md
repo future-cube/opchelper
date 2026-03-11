@@ -29,6 +29,6 @@ Copy-paste template here
 
 ## Next steps
 
-- Related guide: `/en/guides/...`
-- Directory: `/en/directory`
+- Related guide: [`/en/guides/...`](/en/guides/...)
+- Directory: [`/en/directory`](/en/directory)
 

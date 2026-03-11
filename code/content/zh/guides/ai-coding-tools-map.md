@@ -19,20 +19,20 @@ updatedAt: "2026-03-10"
 目标：让你更快写出正确的代码与文档。
 
 典型工具：
-- IDE：Cursor、Windsurf、VS Code + Copilot（`/zh/directory`）
-- CLI：Codex、Claude Code、OpenCode、Gemini CLI、Aider（`/zh/directory`）
+- IDE：Cursor、Windsurf、VS Code + Copilot（[`/zh/directory`](/zh/directory)）
+- CLI：Codex、Claude Code、OpenCode、Gemini CLI、Aider（[`/zh/directory`](/zh/directory)）
 
 补充：如果你偏 VS Code 生态，也可以关注“VS Code 代理型扩展”：
-- Cline、Roo Code（`/zh/directory`）
+- Cline、Roo Code（[`/zh/directory`](/zh/directory)）
 
 ### 第 2 层：连模型（供应商/聚合/网关）
 
 目标：让你的“模型调用”可控（成本、可用性、回退）。
 
 典型工具：
-- 直连供应商：OpenAI / Anthropic / Google / DeepSeek / 等（`/zh/directory`）
-- 聚合/中转：OpenRouter（`/zh/directory`）
-- 网关/代理：Cloudflare AI Gateway、LiteLLM（`/zh/directory`）
+- 直连供应商：OpenAI / Anthropic / Google / DeepSeek / 等（[`/zh/directory`](/zh/directory)）
+- 聚合/中转：OpenRouter（[`/zh/directory`](/zh/directory)）
+- 网关/代理：Cloudflare AI Gateway、LiteLLM（[`/zh/directory`](/zh/directory)）
 
 ### 第 3 层：跑稳（观测/评测/回归）
 
@@ -69,7 +69,7 @@ updatedAt: "2026-03-10"
 - `/AGENTS.md`
 
 如果你需要一个可下载的执行清单：
-- `/zh/downloads/ai-coding-checklist`
+- [`/zh/downloads/ai-coding-checklist`](/zh/downloads/ai-coding-checklist)
 
 ### B. 从一个最短闭环开始
 
@@ -86,9 +86,9 @@ issue → 修复 → 测试 → 发布
 
 ## 4）下一步
 
-- AI 工具导航：`/zh/directory`
-- LLM 能力栈（交付级）：`/zh/guides/llm-stack-for-opc`
-- Codex 进阶：`/zh/guides/codex-cli-advanced`
-- Claude Code 工作流：`/zh/guides/claude-code-workflow`
-- Cursor 项目落地：`/zh/guides/cursor-project-setup`
-- OpenClaw 工作流：`/zh/guides/openclaw-workflows`
+- AI 工具导航：[`/zh/directory`](/zh/directory)
+- LLM 能力栈（交付级）：[`/zh/guides/llm-stack-for-opc`](/zh/guides/llm-stack-for-opc)
+- Codex 进阶：[`/zh/guides/codex-cli-advanced`](/zh/guides/codex-cli-advanced)
+- Claude Code 工作流：[`/zh/guides/claude-code-workflow`](/zh/guides/claude-code-workflow)
+- Cursor 项目落地：[`/zh/guides/cursor-project-setup`](/zh/guides/cursor-project-setup)
+- OpenClaw 工作流：[`/zh/guides/openclaw-workflows`](/zh/guides/openclaw-workflows)

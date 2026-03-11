@@ -67,8 +67,8 @@ updatedAt: "2026-03-10"
 - 不要“先做了再说”，那会把你拖死
 
 站内模板：
-- 下载：需求变更说明：`/zh/downloads/change-request-template`
-- 工具：模板生成器（变更单）：`/zh/tools/templates`
+- 下载：需求变更说明：[`/zh/downloads/change-request-template`](/zh/downloads/change-request-template)
+- 工具：模板生成器（变更单）：[`/zh/tools/templates`](/zh/tools/templates)
 
 ## 5）最小交付资产清单（你应该长期复用）
 
@@ -82,7 +82,7 @@ updatedAt: "2026-03-10"
 
 ## 6）下一步（站内路径）
 
-- 手册：服务/咨询 0–1：`/zh/playbook/services-consulting`
-- 下载：项目简报：`/zh/downloads/project-brief-template`
-- 下载：验收清单：`/zh/downloads/acceptance-checklist`
-- 下载：SOW（服务说明书）：`/zh/downloads/sow-template`
+- 手册：服务/咨询 0–1：[`/zh/playbook/services-consulting`](/zh/playbook/services-consulting)
+- 下载：项目简报：[`/zh/downloads/project-brief-template`](/zh/downloads/project-brief-template)
+- 下载：验收清单：[`/zh/downloads/acceptance-checklist`](/zh/downloads/acceptance-checklist)
+- 下载：SOW（服务说明书）：[`/zh/downloads/sow-template`](/zh/downloads/sow-template)

@@ -19,7 +19,7 @@ updatedAt: "2026-03-10"
 
 直连的好处：能力完整、路径清晰、支持更直接。  
 你可以从 Directory 找入口（官网/文档）：
-- `/zh/directory`
+- [`/zh/directory`](/zh/directory)
 
 建议只选 1 个先跑通你的核心场景（例如：内容生成/客服/知识库/自动化）。
 
@@ -34,8 +34,8 @@ updatedAt: "2026-03-10"
 - 观测与成本统计更集中
 
 可参考（见 Directory）：
-- OpenRouter（聚合/中转）：`/zh/directory`
-- Cloudflare AI Gateway（网关/观测/缓存）：`/zh/directory`
+- OpenRouter（聚合/中转）：[`/zh/directory`](/zh/directory)
+- Cloudflare AI Gateway（网关/观测/缓存）：[`/zh/directory`](/zh/directory)
 
 ---
 
@@ -66,7 +66,7 @@ updatedAt: "2026-03-10"
 3) **交付文档自动化**：项目简报 → 里程碑 → 变更说明 → 催款提醒
 
 如果你想把“交付文档”标准化，建议直接用本站下载区：
-- `/zh/downloads`
+- [`/zh/downloads`](/zh/downloads)
 
 ---
 

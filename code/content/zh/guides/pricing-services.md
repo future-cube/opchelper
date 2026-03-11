@@ -15,7 +15,7 @@ updatedAt: "2026-03-10"
 你需要先得到一个底线：**最低时薪/日薪**。
 
 推荐下载（CSV 可导入表格）：
-- 报价计算器：`/zh/downloads/pricing-calculator`
+- 报价计算器：[`/zh/downloads/pricing-calculator`](/zh/downloads/pricing-calculator)
 
 计算逻辑（简化版）：
 > 最低时薪 ≈ 目标月收入 / 可售工时 / (1 - 税费率) × 风险系数
@@ -41,7 +41,7 @@ updatedAt: "2026-03-10"
 - 风险变大 → 价格增加（不确定性溢价）
 
 建议你把变更写成正式流程：
-- 需求变更模板：`/zh/downloads/change-request-template`
+- 需求变更模板：[`/zh/downloads/change-request-template`](/zh/downloads/change-request-template)
 
 ---
 
@@ -69,14 +69,14 @@ updatedAt: "2026-03-10"
 - 保留暂停交付的权利
 
 催款模板下载：
-- `/zh/downloads/payment-reminder-email`
+- [`/zh/downloads/payment-reminder-email`](/zh/downloads/payment-reminder-email)
 
 ---
 
 ## 5）下一步：把“报价”变成模板与 SOP
 
 把这三件事固化：
-- 项目简报（启动前必填）：`/zh/downloads/project-brief-template`
-- 需求变更（新增必走）：`/zh/downloads/change-request-template`
-- 催款流程（到期/逾期）：`/zh/downloads/payment-reminder-email`
+- 项目简报（启动前必填）：[`/zh/downloads/project-brief-template`](/zh/downloads/project-brief-template)
+- 需求变更（新增必走）：[`/zh/downloads/change-request-template`](/zh/downloads/change-request-template)
+- 催款流程（到期/逾期）：[`/zh/downloads/payment-reminder-email`](/zh/downloads/payment-reminder-email)
 

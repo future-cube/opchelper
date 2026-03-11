@@ -10,5 +10,5 @@ This is not a benchmark. It’s a stable way to ship in real repos:
 - If you need multi-step repo work: use agent-style tools (with stricter guardrails).
 - Regardless of tool: enforce rules, ignore secrets, keep diffs small, and always verify.
 
-Next: `/en/directory`
+Next: [`/en/directory`](/en/directory)
 

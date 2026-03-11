@@ -11,5 +11,5 @@ downloadUrl: "/downloads/checklists/acceptance-checklist.csv"
 - 或者作为项目的“Definition of Done”
 
 配合阅读：
-- 稳定交付节奏：`/zh/guides/services-delivery-cadence`
+- 稳定交付节奏：[`/zh/guides/services-delivery-cadence`](/zh/guides/services-delivery-cadence)
 

@@ -14,6 +14,6 @@ Most solo businesses fail because the system is unstable, not because the founde
 4) Review weekly and turn what works into SOP/templates
 
 Next steps:
-- Playbooks: `/en/playbook`
-- Downloads: `/en/downloads`
+- Playbooks: [`/en/playbook`](/en/playbook)
+- Downloads: [`/en/downloads`](/en/downloads)
 

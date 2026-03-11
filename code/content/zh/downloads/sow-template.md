@@ -12,6 +12,6 @@ downloadUrl: "/downloads/templates/sow.md"
 3) 项目中出现变更时，更新 SOW 或出变更单（并重新确认）
 
 配合阅读：
-- 稳定交付节奏：`/zh/guides/services-delivery-cadence`
-- 按时回款：`/zh/guides/get-paid-on-time`
+- 稳定交付节奏：[`/zh/guides/services-delivery-cadence`](/zh/guides/services-delivery-cadence)
+- 按时回款：[`/zh/guides/get-paid-on-time`](/zh/guides/get-paid-on-time)
 

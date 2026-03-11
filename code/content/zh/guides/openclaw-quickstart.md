@@ -34,6 +34,6 @@ updatedAt: "2026-03-10"
 
 ## 4）下一步
 
-- 安全与边界：`/zh/guides/openclaw-safety`
-- AI 工具导航：`/zh/directory`
+- 安全与边界：[`/zh/guides/openclaw-safety`](/zh/guides/openclaw-safety)
+- AI 工具导航：[`/zh/directory`](/zh/directory)
 

@@ -87,6 +87,6 @@ git restore .
 
 ## 5）下一步
 
-- 安装与初始化：`/zh/guides/openclaw-install`
-- 一人公司 3 条闭环：`/zh/guides/openclaw-workflows`
-- 安全边界：`/zh/guides/openclaw-safety`
+- 安装与初始化：[`/zh/guides/openclaw-install`](/zh/guides/openclaw-install)
+- 一人公司 3 条闭环：[`/zh/guides/openclaw-workflows`](/zh/guides/openclaw-workflows)
+- 安全边界：[`/zh/guides/openclaw-safety`](/zh/guides/openclaw-safety)

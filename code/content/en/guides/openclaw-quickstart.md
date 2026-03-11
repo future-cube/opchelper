@@ -14,5 +14,5 @@ Start safely:
 - Exclude secrets and personal files.
 - Begin with read-only tasks, then expand.
 
-Next: `/en/directory`
+Next: [`/en/directory`](/en/directory)
 

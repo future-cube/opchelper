@@ -53,6 +53,6 @@ updatedAt: "2026-03-10"
 
 ## 4）下一步
 
-- AI 工具导航：`/zh/directory`
-- 一人公司最短闭环：`/zh/guides/opc-operating-system`
+- AI 工具导航：[`/zh/directory`](/zh/directory)
+- 一人公司最短闭环：[`/zh/guides/opc-operating-system`](/zh/guides/opc-operating-system)
 

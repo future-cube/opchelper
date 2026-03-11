@@ -17,5 +17,5 @@ Recommended order:
 - add one gateway/aggregator for fallback
 - add observability + evals when usage grows
 
-See Directory: `/en/directory`
+See Directory: [`/en/directory`](/en/directory)
 

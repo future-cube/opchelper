@@ -54,10 +54,10 @@ updatedAt: "2026-03-10"
 ## 4）替代方案（可立即用的“主流工具链”）
 
 如果你的目标是“提高编码效率/自动化”，可以先用这些成熟工具：
-- Codex CLI：`/zh/guides/codex-cli-quickstart`
-- Claude Code：`/zh/guides/claude-code-quickstart`
-- Cursor：`/zh/guides/cursor-rules-starter`
-- OpenCode：`/zh/guides/opencode-cli-starter`
+- Codex CLI：[`/zh/guides/codex-cli-quickstart`](/zh/guides/codex-cli-quickstart)
+- Claude Code：[`/zh/guides/claude-code-quickstart`](/zh/guides/claude-code-quickstart)
+- Cursor：[`/zh/guides/cursor-rules-starter`](/zh/guides/cursor-rules-starter)
+- OpenCode：[`/zh/guides/opencode-cli-starter`](/zh/guides/opencode-cli-starter)
 
 它们的共同点：**官方入口明确、文档完善、可控边界更成熟**。
 

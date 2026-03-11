@@ -11,7 +11,7 @@ updatedAt: "2026-03-10"
 - OpenClaw Docs：`https://docs.openclaw.ai/`
 
 站内导航（本项目会持续维护相关条目）：
-- `/zh/directory`
+- [`/zh/directory`](/zh/directory)
 
 ## 1）一人公司为什么需要自动化/工作流？
 
@@ -50,5 +50,5 @@ updatedAt: "2026-03-10"
 ## 5）下一步
 
 - 去本网站的“导航（Directory）”找到 OpenClaw 官方入口与相关工具：
-  - `/zh/directory`
+  - [`/zh/directory`](/zh/directory)
 - 如果你愿意，把你业务类型告诉我（自媒体/外包/虚拟资料/咨询/工具产品），我会按你的真实流程，把这套学习路线写成可执行课程。

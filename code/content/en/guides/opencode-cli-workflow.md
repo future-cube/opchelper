@@ -13,5 +13,5 @@ Stable workflow:
 - ask for a plan, then execute one step
 - keep changes small and reversible
 
-Next: `/en/guides/opencode-cli-starter`
+Next: [`/en/guides/opencode-cli-starter`](/en/guides/opencode-cli-starter)
 

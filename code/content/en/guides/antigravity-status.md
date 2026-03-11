@@ -17,8 +17,8 @@ Safe evaluation checklist:
 - do not import real repo secrets or personal data
 
 Alternatives you can use now:
-- `/en/guides/codex-cli-quickstart`
-- `/en/guides/claude-code-quickstart`
-- `/en/guides/cursor-rules-starter`
-- `/en/guides/opencode-cli-starter`
+- [`/en/guides/codex-cli-quickstart`](/en/guides/codex-cli-quickstart)
+- [`/en/guides/claude-code-quickstart`](/en/guides/claude-code-quickstart)
+- [`/en/guides/cursor-rules-starter`](/en/guides/cursor-rules-starter)
+- [`/en/guides/opencode-cli-starter`](/en/guides/opencode-cli-starter)
 

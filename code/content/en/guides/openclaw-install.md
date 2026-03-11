@@ -18,5 +18,5 @@ Note: per the official install page, the CLI binary name is typically `claw`. Fo
 - https://docs.openclaw.ai/install/
 
 Next:
-- `/en/guides/openclaw-quickstart`
-- `/en/guides/openclaw-workflows`
+- [`/en/guides/openclaw-quickstart`](/en/guides/openclaw-quickstart)
+- [`/en/guides/openclaw-workflows`](/en/guides/openclaw-workflows)

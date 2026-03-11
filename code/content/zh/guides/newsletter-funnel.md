@@ -31,7 +31,7 @@ updatedAt: "2026-03-10"
 
 承接方式：
 - 落地页（Carrd/Linktree）
-- 下载区（`/zh/downloads`）
+- 下载区（[`/zh/downloads`](/zh/downloads)）
 
 ## 3）欢迎序列（Welcome sequence）最小 3 封
 
@@ -49,6 +49,6 @@ updatedAt: "2026-03-10"
 
 ## 5）下一步
 
-- 变现路线图：`/zh/guides/creator-monetization-map`
-- 工具导航：`/zh/directory`
+- 变现路线图：[`/zh/guides/creator-monetization-map`](/zh/guides/creator-monetization-map)
+- 工具导航：[`/zh/directory`](/zh/directory)
 

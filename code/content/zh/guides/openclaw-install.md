@@ -79,6 +79,6 @@ claw --help
 
 ## 5）下一步（建议顺序）
 
-- 10 分钟上手一个最短闭环：`/zh/guides/openclaw-quickstart`
-- 建立安全边界：`/zh/guides/openclaw-safety`
-- 直接抄作业：3 条一人公司工作流模板：`/zh/guides/openclaw-workflows`
+- 10 分钟上手一个最短闭环：[`/zh/guides/openclaw-quickstart`](/zh/guides/openclaw-quickstart)
+- 建立安全边界：[`/zh/guides/openclaw-safety`](/zh/guides/openclaw-safety)
+- 直接抄作业：3 条一人公司工作流模板：[`/zh/guides/openclaw-workflows`](/zh/guides/openclaw-workflows)

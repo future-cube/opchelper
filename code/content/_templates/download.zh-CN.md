@@ -18,6 +18,6 @@ downloadUrl: "/downloads/xxx/your-file.ext"
 
 ## 下一步
 
-- 相关教程：`/zh/guides/...`
-- 资源导航：`/zh/directory`
+- 相关教程：[`/zh/guides/...`](/zh/guides/...)
+- 资源导航：[`/zh/directory`](/zh/directory)
 

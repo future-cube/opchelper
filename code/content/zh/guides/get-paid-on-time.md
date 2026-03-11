@@ -45,8 +45,8 @@ updatedAt: "2026-03-10"
 - Day 14：最后通牒（必要时升级到电话/负责人）
 
 站内模板：
-- 下载：催款邮件：`/zh/downloads/payment-reminder-email`
-- 工具：模板生成器（催款邮件）：`/zh/tools/templates`
+- 下载：催款邮件：[`/zh/downloads/payment-reminder-email`](/zh/downloads/payment-reminder-email)
+- 工具：模板生成器（催款邮件）：[`/zh/tools/templates`](/zh/tools/templates)
 
 ## 5）最重要的底线：逾期就暂停交付（否则你会被训练成“免费劳动力”）
 
@@ -66,7 +66,7 @@ updatedAt: "2026-03-10"
 
 ## 7）下一步（站内路径）
 
-- 指南：稳定交付节奏：`/zh/guides/services-delivery-cadence`
-- 手册：服务/咨询 0–1：`/zh/playbook/services-consulting`
-- 下载：项目简报/变更单/催款邮件：`/zh/downloads`
+- 指南：稳定交付节奏：[`/zh/guides/services-delivery-cadence`](/zh/guides/services-delivery-cadence)
+- 手册：服务/咨询 0–1：[`/zh/playbook/services-consulting`](/zh/playbook/services-consulting)
+- 下载：项目简报/变更单/催款邮件：[`/zh/downloads`](/zh/downloads)
 

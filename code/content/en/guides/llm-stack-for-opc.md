@@ -16,5 +16,5 @@ Recommended approach:
 2) Add one gateway/aggregator for backup and comparisons.  
 3) Add logging + cost tracking early.
 
-See Directory: `/en/directory`
+See Directory: [`/en/directory`](/en/directory)
 

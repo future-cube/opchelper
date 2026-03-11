@@ -19,10 +19,10 @@ The goal is to reduce chaos: templates + milestones + payment workflow.
 8) Review (turn project into SOP)
 
 Recommended guides:
-- Stable delivery: `/en/guides/services-delivery-cadence`
-- Get paid on time: `/en/guides/get-paid-on-time`
+- Stable delivery: [`/en/guides/services-delivery-cadence`](/en/guides/services-delivery-cadence)
+- Get paid on time: [`/en/guides/get-paid-on-time`](/en/guides/get-paid-on-time)
 
 Downloads:
-- Project brief: `/en/downloads/project-brief-template`
-- Change request: `/en/downloads/change-request-template`
-- Payment reminder: `/en/downloads/payment-reminder-email`
+- Project brief: [`/en/downloads/project-brief-template`](/en/downloads/project-brief-template)
+- Change request: [`/en/downloads/change-request-template`](/en/downloads/change-request-template)
+- Payment reminder: [`/en/downloads/payment-reminder-email`](/en/downloads/payment-reminder-email)

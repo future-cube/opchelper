@@ -84,7 +84,7 @@ pnpm -C code generate
 
 ## 5）下一步
 
-- 快速上手：`/zh/guides/codex-cli-quickstart`
-- AI 工具地图（怎么选）：`/zh/guides/ai-coding-tools-map`
-- 模型/网关导航：`/zh/directory`
+- 快速上手：[`/zh/guides/codex-cli-quickstart`](/zh/guides/codex-cli-quickstart)
+- AI 工具地图（怎么选）：[`/zh/guides/ai-coding-tools-map`](/zh/guides/ai-coding-tools-map)
+- 模型/网关导航：[`/zh/directory`](/zh/directory)
 

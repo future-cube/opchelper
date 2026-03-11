@@ -29,14 +29,14 @@ Notion 的价值：把你的“个人记忆”变成“可检索、可复用的 
 字段建议：
 - 客户、范围、里程碑、交付物、验收标准、付款节点
 
-> 启动项目时建议使用本站的 Project Brief：`/zh/downloads/project-brief-template`
+> 启动项目时建议使用本站的 Project Brief：[`/zh/downloads/project-brief-template`](/zh/downloads/project-brief-template)
 
 ### D. 复盘库（Reviews）
 
 字段建议：
 - 本周产出、指标、瓶颈、下周重点
 
-> 可用每周复盘清单：`/zh/downloads/weekly-review-checklist`
+> 可用每周复盘清单：[`/zh/downloads/weekly-review-checklist`](/zh/downloads/weekly-review-checklist)
 
 ---
 
@@ -48,7 +48,7 @@ Notion 里建议固定 3 份模板：
 - 催款邮件（回款）
 
 下载入口：
-- `/zh/downloads`
+- [`/zh/downloads`](/zh/downloads)
 
 ---
 
@@ -60,5 +60,5 @@ Notion 里建议固定 3 份模板：
 - 发布内容 → 自动归档与统计
 
 自动化工具可在 Directory 里找：
-- `/zh/directory`
+- [`/zh/directory`](/zh/directory)
 

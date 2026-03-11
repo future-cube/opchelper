@@ -15,4 +15,4 @@ If the CLI is not found:
 - verify `PATH`
 - follow the latest install guide: https://docs.openclaw.ai/install/
 
-Next: `/en/guides/openclaw-install`
+Next: [`/en/guides/openclaw-install`](/en/guides/openclaw-install)

@@ -14,5 +14,5 @@ Minimal loop:
 5) Every post has one CTA (buy/download)  
 6) Collect feedback → v1.1 → build a product ladder
 
-Next: `/en/playbook/digital-downloads`
+Next: [`/en/playbook/digital-downloads`](/en/playbook/digital-downloads)
 

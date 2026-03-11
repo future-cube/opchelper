@@ -32,5 +32,5 @@ OpenCode 是偏 CLI/终端的 AI 编程助手，适合做：
 
 ## 3）下一步
 
-- AI 工具导航：`/zh/directory`
+- AI 工具导航：[`/zh/directory`](/zh/directory)
 

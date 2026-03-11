@@ -60,10 +60,10 @@ updatedAt: "2026-03-10"
 - 你的支持边界（不做个性化定制）
 
 站内模板（准备在 Downloads 提供）：
-- 退款政策模板：`/zh/downloads`
+- 退款政策模板：[`/zh/downloads`](/zh/downloads)
 
 ## 5）下一步（站内路径）
 
-- 0→1 闭环：`/zh/guides/virtual-products-0to1`
-- 交付与售后：`/zh/guides/virtual-products-delivery`
+- 0→1 闭环：[`/zh/guides/virtual-products-0to1`](/zh/guides/virtual-products-0to1)
+- 交付与售后：[`/zh/guides/virtual-products-delivery`](/zh/guides/virtual-products-delivery)
 

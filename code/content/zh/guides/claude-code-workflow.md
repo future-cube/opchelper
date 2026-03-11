@@ -64,7 +64,7 @@ claude
 
 ## 5）下一步
 
-- 入门快速上手：`/zh/guides/claude-code-quickstart`
-- 通用安全边界（所有代理工具适用）：`/zh/guides/openclaw-safety`
-- AI 工具导航：`/zh/directory`
+- 入门快速上手：[`/zh/guides/claude-code-quickstart`](/zh/guides/claude-code-quickstart)
+- 通用安全边界（所有代理工具适用）：[`/zh/guides/openclaw-safety`](/zh/guides/openclaw-safety)
+- AI 工具导航：[`/zh/directory`](/zh/directory)
 
