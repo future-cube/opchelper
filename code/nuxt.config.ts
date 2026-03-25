@@ -57,6 +57,11 @@ export default defineNuxtConfig({
     ],
     vueI18n: "./i18n/messages.ts"
   },
+  routeRules: {
+    "/kx": { redirect: "https://www.claw123.com/kx", statusCode: 302 },
+    "/zh/kx": { redirect: "https://www.claw123.com/kx", statusCode: 302 },
+    "/en/kx": { redirect: "https://www.claw123.com/kx", statusCode: 302 }
+  },
 
   content: {
     experimental: {
