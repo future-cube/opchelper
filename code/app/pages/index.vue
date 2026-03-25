@@ -175,14 +175,7 @@ const { data: directoryCounts } = await useAsyncData(
     </div>
 
     <div class="mt-10">
-      <div class="opc-card border border-dashed border-slate-200 bg-slate-50/60 dark:border-white/10 dark:bg-white/5">
-        <p class="text-sm font-semibold text-slate-900 dark:text-white">
-          {{ locale === 'zh' ? 'Claw123 中部内容（占位）' : 'Claw123 mid-section placeholder' }}
-        </p>
-        <p class="mt-2 text-sm text-slate-600 dark:text-slate-200/75">
-          {{ locale === 'zh' ? '后续将在此插入 Claw123 中部组件。' : 'Claw123 mid content component will be inserted here.' }}
-        </p>
-      </div>
+      <Claw123Mid />
     </div>
 
     <div class="mt-10">
