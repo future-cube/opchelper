@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <!-- Claw left -->
+  <path d="M16 18 C10 14, 6 22, 12 28 L20 32" stroke="url(#g)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Claw right -->
+  <path d="M32 18 C38 14, 42 22, 36 28 L28 32" stroke="url(#g)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Claw base / body -->
+  <path d="M20 32 Q24 36, 28 32" stroke="url(#g)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <line x1="24" y1="34" x2="24" y2="44" stroke="url(#g)" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Tail segments -->
+  <path d="M18 44 Q24 48, 30 44" stroke="url(#g)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M20 48 Q24 51, 28 48" stroke="url(#g)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Dir dot -->
+  <circle cx="46" cy="46" r="5" fill="#f97316"/>
+  <!-- Dir text -->
+  <text x="46" y="42" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" fill="#f97316" text-anchor="middle">Dir</text>
+</svg>
