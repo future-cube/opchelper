@@ -32,7 +32,7 @@ const copy = computed(() =>
           { t: "2）选工具栈", d: "主力供应商 + 备份网关 + 必要工具。先能稳定输出。", to: "/directory" },
           { t: "3）拿到第一笔收入", d: "从赞助/服务/数字产品里选一个模型跑通第一单。", to: "/guides/creator-monetization-map" }
         ],
-        sectionsTitle: "频道导航",
+        sectionsTitle: "一人公司",
         sections: [
           { k: "学习（Guides）", d: "能力与工作流教程（中文优先）。", to: "/guides" },
           { k: "手册（Playbooks）", d: "按业务类型的可复制 SOP。", to: "/playbook" },
@@ -59,7 +59,7 @@ const copy = computed(() =>
           { t: "2) Pick your stack", d: "Primary provider + backup gateway + essentials. Focus on stable output.", to: "/directory" },
           { t: "3) Get first revenue", d: "Pick one model (sponsor/services/digital) and get your first sale.", to: "/guides/creator-monetization-map" }
         ],
-        sectionsTitle: "Channels",
+        sectionsTitle: "One-Person Company",
         sections: [
           { k: "Guides", d: "Skills & workflows (Chinese-first, English summaries).", to: "/guides" },
           { k: "Playbooks", d: "SOPs per business type.", to: "/playbook" },
