@@ -24,6 +24,7 @@ const labels = computed(() =>
   locale.value === "zh"
     ? {
         home: "首页",
+        legacy: "原首页",
         guides: "学习",
         playbook: "手册",
         directory: "导航",
@@ -34,6 +35,7 @@ const labels = computed(() =>
       }
     : {
         home: "Home",
+        legacy: "Legacy Home",
         guides: "Learn",
         playbook: "Playbooks",
         directory: "Directory",
@@ -46,6 +48,7 @@ const labels = computed(() =>
 
 const navItems = computed(() => [
   { to: localePath("/"), label: labels.value.home },
+  { to: localePath("/legacy-home"), label: labels.value.legacy },
   { to: localePath("/guides"), label: labels.value.guides },
   { to: localePath("/playbook"), label: labels.value.playbook },
   { to: localePath("/directory"), label: labels.value.directory },
